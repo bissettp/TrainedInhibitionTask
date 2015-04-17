@@ -1,0 +1,5 @@
+xPos,corrAns,yPos,practiceTrials.thisRepN,practiceTrials.thisTrialN,practiceTrials.thisN,practiceTrials.thisIndex,ok1.keys,ok1.rt,resp.keys,resp.corr,resp.rt,expName,gender (m/f),age,frameRate,session,date,participant,
+,,,,,,,space,0.336236953735,,,,LearningTask,,,59.9336976154,3,2015_Mar_05_1416,73,
+200,y,200,0,0,0,0,,,y,1,0.817723989487,LearningTask,,,59.9336976154,3,2015_Mar_05_1416,73,
+-200,t,200,0,1,1,1,,,t,1,0.467578887939,LearningTask,,,59.9336976154,3,2015_Mar_05_1416,73,
+200,h,-200,0,2,2,2,,,h,1,0.384137153625,LearningTask,,,59.9336976154,3,2015_Mar_05_1416,73,

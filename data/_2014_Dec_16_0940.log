@@ -1,0 +1,5 @@
+0.6986 	WARNING 	Movie2 stim could not be imported and won't be available
+0.7181 	WARNING 	TextBox stim could not be imported and won't be available.
+0.7181 	WARNING 	TextBox Font Manager Found No Fonts.
+3.1880 	WARNING 	t of last frame was 22.51ms (=1/44)
+33.9728 	ERROR 	Couldn't find image file 'circlemaagenta.gif'; check path?

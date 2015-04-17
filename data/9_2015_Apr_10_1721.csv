@@ -1,0 +1,6 @@
+pracTrials.thisRepN,pracTrials.thisTrialN,pracTrials.thisN,pracTrials.thisIndex,pracStopTrials.thisRepN,pracStopTrials.thisTrialN,pracStopTrials.thisN,pracStopTrials.thisIndex,Blocks.thisRepN,Blocks.thisTrialN,Blocks.thisN,Blocks.thisIndex,StopBlocks.thisRepN,StopBlocks.thisTrialN,StopBlocks.thisN,StopBlocks.thisIndex,auctionBlocks.thisRepN,auctionBlocks.thisTrialN,auctionBlocks.thisN,auctionBlocks.thisIndex,auctionBlocks.thisTrial,auctionTrials.thisRepN,auctionTrials.thisTrialN,auctionTrials.thisN,auctionTrials.thisIndex,auctionTrials.thisTrial,ok1.keys,ok1.rt,key_resp_3.keys,key_resp_3.rt,key_resp_4.keys,key_resp_4.rt,key_resp_5.keys,key_resp_5.rt,expName,gender (m/f),age,frameRate,session,date,participant,
+,,,,,,,,,,,,,,,,,,,,,,,,,,space,0.34260392189,,,,,,,LearningTask,,,60.0333780855,3,2015_Apr_10_1721,9,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,space,0.144677877426,,,,,LearningTask,,,60.0333780855,3,2015_Apr_10_1721,9,
+,,,,,,,,,,,,,,,,,,,,,,,,,,space,0.165594100952,,,,,,,LearningTask,,,60.0333780855,3,2015_Apr_10_1721,9,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,space,0.165465116501,,,LearningTask,,,60.0333780855,3,2015_Apr_10_1721,9,
+,,,,,,,,,,,,,,,,0,0,0,0,None,0,0,0,0,None,,,,,,,space,0.616189956665,LearningTask,,,60.0333780855,3,2015_Apr_10_1721,9,

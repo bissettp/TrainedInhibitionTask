@@ -1,0 +1,3 @@
+xPos,location,Shape,yPos,numVertices,corrAns,practiceTrials.thisRepN,practiceTrials.thisTrialN,practiceTrials.thisN,practiceTrials.thisIndex,ok1.keys,ok1.rt,resp.keys,resp.corr,resp.rt,expName,gender (m/f),age,frameRate,session,date,participant,
+,,,,,,,,,,g,0.840955018997,,,,LearningTask,,,59.9988556126,3,2014_Dec_15_1305,,
+-200,up_left,Circle,200,90,t,0,0,0,7,,,t,1,0.449924945831,LearningTask,,,59.9988556126,3,2014_Dec_15_1305,,

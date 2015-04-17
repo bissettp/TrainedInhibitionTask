@@ -1,0 +1,7 @@
+0.7007 	WARNING 	Movie2 stim could not be imported and won't be available
+4.4924 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor instance at 0xe8abfd0>, name='window1', pos=[0, 0], screen=0, size=array([1440,  900]), stereo=False, units=u'norm', useFBO=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.4924 	EXP 	window1: recordFrameIntervals = False
+4.6573 	EXP 	window1: recordFrameIntervals = True
+4.8415 	EXP 	window1: recordFrameIntervals = False
+4.8417 	EXP 	window1: recordFrameIntervals = False
+4.8579 	EXP 	window1: recordFrameIntervals = False

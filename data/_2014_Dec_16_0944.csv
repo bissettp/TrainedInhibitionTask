@@ -1,0 +1,5 @@
+xPos,location,ShapeStimulus,Shape,yPos,corrAns,practiceTrials.thisRepN,practiceTrials.thisTrialN,practiceTrials.thisN,practiceTrials.thisIndex,ok1.keys,ok1.rt,resp.keys,resp.corr,resp.rt,expName,gender (m/f),age,frameRate,session,date,participant,
+,,,,,,,,,,space,3.27144312859,,,,LearningTask,,,59.9858126816,3,2014_Dec_16_0944,,
+-200,up_left,circlewhite.gif,Square,200,t,0,0,0,6,,,t,1,0.650636196136,LearningTask,,,59.9858126816,3,2014_Dec_16_0944,,
+200,down_right,diamondorange.gif,Triangle,-200,h,0,1,1,9,,,y,0,0.167855978012,LearningTask,,,59.9858126816,3,2014_Dec_16_0944,,
+200,down_right,diamondwhite.gif,Square,-200,h,0,2,2,10,,,h,1,0.434653043747,LearningTask,,,59.9858126816,3,2014_Dec_16_0944,,

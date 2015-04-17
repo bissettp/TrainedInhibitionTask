@@ -1,0 +1,4 @@
+0.8325 	WARNING 	Movie2 stim could not be imported and won't be available
+5.3929 	WARNING 	t of last frame was 23.73ms (=1/42)
+5.4193 	WARNING 	t of last frame was 26.38ms (=1/37)
+17.0120 	ERROR 	Couldn't find image file '$crosscyan.gif'; check path?

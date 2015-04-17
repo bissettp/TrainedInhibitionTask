@@ -1,0 +1,8 @@
+xPos,location,Shape,yPos,numVertices,corrAns,practiceTrials.thisRepN,practiceTrials.thisTrialN,practiceTrials.thisN,practiceTrials.thisIndex,ok1.keys,ok1.rt,resp.keys,resp.corr,resp.rt,expName,gender (m/f),age,frameRate,session,date,participant,
+,,,,,,,,,,space,0.706595897675,,,,LearningTask,,30,59.8845799103,3,2014_Dec_03_1515,,
+200,down_right,Triangle,-200,3,h,0,0,0,9,,,None,0,,LearningTask,,30,59.8845799103,3,2014_Dec_03_1515,,
+-200,up_left,Line,200,2,t,0,1,1,4,,,t,1,0.683851957321,LearningTask,,30,59.8845799103,3,2014_Dec_03_1515,,
+-200,down_left,Square,-200,4,g,0,2,2,14,,,g,1,0.634329080582,LearningTask,,30,59.8845799103,3,2014_Dec_03_1515,,
+200,up_right,Circle,200,90,y,0,3,3,3,,,y,1,0.484653949738,LearningTask,,30,59.8845799103,3,2014_Dec_03_1515,,
+200,up_right,Square,200,4,y,0,4,4,2,,,y,1,0.417643070221,LearningTask,,30,59.8845799103,3,2014_Dec_03_1515,,
+-200,up_left,Circle,200,90,t,0,5,5,7,,,t,1,0.467570066452,LearningTask,,30,59.8845799103,3,2014_Dec_03_1515,,

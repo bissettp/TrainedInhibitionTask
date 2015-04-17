@@ -1,0 +1,2 @@
+3.0127 	WARNING 	Movie2 stim could not be imported and won't be available
+7.1241 	WARNING 	pygame audio lib was requested but not loaded: No module named pygame

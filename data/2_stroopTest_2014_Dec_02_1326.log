@@ -1,0 +1,253 @@
+9.9523 	WARNING 	Movie2 stim could not be imported and won't be available
+10.2502 	WARNING 	TextBox stim could not be imported and won't be available.
+10.2502 	WARNING 	TextBox Font Manager Found No Fonts.
+17.7408 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor instance at 0xd91f490>, name='window1', pos=[0, 0], screen=0, size=array([1440,  900]), stereo=False, units=u'norm', useFBO=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+17.7408 	EXP 	window1: recordFrameIntervals = False
+17.9067 	EXP 	window1: recordFrameIntervals = True
+18.0914 	EXP 	window1: recordFrameIntervals = False
+18.8424 	EXP 	Created instrText = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='instrText', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+18.8492 	EXP 	Created target = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='target', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 1.,  1.,  1.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+18.8716 	EXP 	instrText: autoDraw = True
+22.2415 	DATA 	Keypress: down
+22.2508 	EXP 	Imported StroopInput.xlsx as conditions, 6 conditions, 4 params
+22.2512 	EXP 	Created sequence: random, trialTypes=6, nReps=5, seed=None
+22.2523 	EXP 	New trial (rep=0, index=0): {u'color': u'green', u'congruent': 1, u'word': u'green', u'corrAns': u'down'}
+22.2554 	EXP 	window1: recordFrameIntervals = False
+22.2742 	EXP 	instrText: autoDraw = False
+22.2742 	EXP 	target: color = u'green (named)'
+22.2742 	EXP 	target: text = u'green'
+22.2744 	EXP 	window1: recordFrameIntervals = False
+22.7914 	EXP 	target: autoDraw = True
+23.6249 	DATA 	Keypress: down
+23.6267 	EXP 	New trial (rep=0, index=1): {u'color': u'blue', u'congruent': 0, u'word': u'green', u'corrAns': u'right'}
+23.6307 	EXP 	window1: recordFrameIntervals = False
+23.6409 	EXP 	target: autoDraw = False
+23.6409 	EXP 	target: color = u'blue (named)'
+23.6409 	EXP 	target: text = u'green'
+23.6410 	EXP 	window1: recordFrameIntervals = False
+24.1743 	EXP 	target: autoDraw = True
+24.7252 	DATA 	Keypress: right
+24.7266 	EXP 	New trial (rep=0, index=2): {u'color': u'green', u'congruent': 0, u'word': u'red', u'corrAns': u'down'}
+24.7307 	EXP 	window1: recordFrameIntervals = False
+24.7411 	EXP 	target: autoDraw = False
+24.7411 	EXP 	target: color = u'green (named)'
+24.7411 	EXP 	target: text = u'red'
+24.7413 	EXP 	window1: recordFrameIntervals = False
+25.2580 	EXP 	target: autoDraw = True
+25.6929 	DATA 	Keypress: down
+25.6942 	EXP 	New trial (rep=0, index=3): {u'color': u'blue', u'congruent': 1, u'word': u'blue', u'corrAns': u'right'}
+25.6983 	EXP 	window1: recordFrameIntervals = False
+25.7082 	EXP 	target: autoDraw = False
+25.7082 	EXP 	target: color = u'blue (named)'
+25.7082 	EXP 	target: text = u'blue'
+25.7083 	EXP 	window1: recordFrameIntervals = False
+26.2414 	EXP 	target: autoDraw = True
+26.7252 	DATA 	Keypress: right
+26.7259 	EXP 	New trial (rep=0, index=4): {u'color': u'red', u'congruent': 0, u'word': u'blue', u'corrAns': u'left'}
+26.7285 	EXP 	window1: recordFrameIntervals = False
+26.7414 	EXP 	target: autoDraw = False
+26.7414 	EXP 	target: color = u'red (named)'
+26.7414 	EXP 	target: text = u'blue'
+26.7414 	EXP 	window1: recordFrameIntervals = False
+27.2583 	EXP 	target: autoDraw = True
+27.6596 	DATA 	Keypress: left
+27.6784 	EXP 	New trial (rep=0, index=5): {u'color': u'red', u'congruent': 1, u'word': u'red', u'corrAns': u'left'}
+27.6822 	EXP 	window1: recordFrameIntervals = False
+27.6926 	EXP 	target: autoDraw = False
+27.6926 	EXP 	target: color = u'red (named)'
+27.6926 	EXP 	target: text = u'red'
+27.6927 	EXP 	window1: recordFrameIntervals = False
+28.2252 	EXP 	target: autoDraw = True
+28.7593 	DATA 	Keypress: left
+28.7607 	EXP 	New trial (rep=1, index=0): {u'color': u'green', u'congruent': 1, u'word': u'green', u'corrAns': u'down'}
+28.7649 	EXP 	window1: recordFrameIntervals = False
+28.7753 	EXP 	target: autoDraw = False
+28.7753 	EXP 	target: color = u'green (named)'
+28.7753 	EXP 	target: text = u'green'
+28.7754 	EXP 	window1: recordFrameIntervals = False
+29.2926 	EXP 	target: autoDraw = True
+29.6592 	DATA 	Keypress: down
+29.6606 	EXP 	New trial (rep=1, index=1): {u'color': u'red', u'congruent': 0, u'word': u'blue', u'corrAns': u'left'}
+29.6648 	EXP 	window1: recordFrameIntervals = False
+29.6752 	EXP 	target: autoDraw = False
+29.6752 	EXP 	target: color = u'red (named)'
+29.6752 	EXP 	target: text = u'blue'
+29.6754 	EXP 	window1: recordFrameIntervals = False
+30.1926 	EXP 	target: autoDraw = True
+30.9097 	DATA 	Keypress: left
+30.9107 	EXP 	New trial (rep=1, index=2): {u'color': u'green', u'congruent': 0, u'word': u'red', u'corrAns': u'down'}
+30.9140 	EXP 	window1: recordFrameIntervals = False
+30.9254 	EXP 	target: autoDraw = False
+30.9254 	EXP 	target: color = u'green (named)'
+30.9254 	EXP 	target: text = u'red'
+30.9255 	EXP 	window1: recordFrameIntervals = False
+31.4425 	EXP 	target: autoDraw = True
+31.9430 	DATA 	Keypress: down
+31.9444 	EXP 	New trial (rep=1, index=3): {u'color': u'blue', u'congruent': 1, u'word': u'blue', u'corrAns': u'right'}
+31.9488 	EXP 	window1: recordFrameIntervals = False
+31.9590 	EXP 	target: autoDraw = False
+31.9590 	EXP 	target: color = u'blue (named)'
+31.9590 	EXP 	target: text = u'blue'
+31.9591 	EXP 	window1: recordFrameIntervals = False
+32.4759 	EXP 	target: autoDraw = True
+32.8598 	DATA 	Keypress: right
+32.8612 	EXP 	New trial (rep=1, index=4): {u'color': u'blue', u'congruent': 0, u'word': u'green', u'corrAns': u'right'}
+32.8657 	EXP 	window1: recordFrameIntervals = False
+32.8756 	EXP 	target: autoDraw = False
+32.8756 	EXP 	target: color = u'blue (named)'
+32.8756 	EXP 	target: text = u'green'
+32.8757 	EXP 	window1: recordFrameIntervals = False
+33.3926 	EXP 	target: autoDraw = True
+33.8766 	DATA 	Keypress: right
+33.8780 	EXP 	New trial (rep=1, index=5): {u'color': u'red', u'congruent': 1, u'word': u'red', u'corrAns': u'left'}
+33.8820 	EXP 	window1: recordFrameIntervals = False
+33.8931 	EXP 	target: autoDraw = False
+33.8931 	EXP 	target: color = u'red (named)'
+33.8931 	EXP 	target: text = u'red'
+33.8932 	EXP 	window1: recordFrameIntervals = False
+34.4093 	EXP 	target: autoDraw = True
+34.8756 	DATA 	Keypress: left
+34.8763 	EXP 	New trial (rep=2, index=0): {u'color': u'blue', u'congruent': 0, u'word': u'green', u'corrAns': u'right'}
+34.8793 	EXP 	window1: recordFrameIntervals = False
+34.8930 	EXP 	target: autoDraw = False
+34.8930 	EXP 	target: color = u'blue (named)'
+34.8930 	EXP 	target: text = u'green'
+34.8930 	EXP 	window1: recordFrameIntervals = False
+35.4093 	EXP 	target: autoDraw = True
+35.9270 	DATA 	Keypress: right
+35.9283 	EXP 	New trial (rep=2, index=1): {u'color': u'red', u'congruent': 1, u'word': u'red', u'corrAns': u'left'}
+35.9318 	EXP 	window1: recordFrameIntervals = False
+35.9430 	EXP 	target: autoDraw = False
+35.9430 	EXP 	target: color = u'red (named)'
+35.9430 	EXP 	target: text = u'red'
+35.9432 	EXP 	window1: recordFrameIntervals = False
+36.4598 	EXP 	target: autoDraw = True
+36.9605 	DATA 	Keypress: down
+36.9618 	EXP 	New trial (rep=2, index=2): {u'color': u'green', u'congruent': 0, u'word': u'red', u'corrAns': u'down'}
+36.9654 	EXP 	window1: recordFrameIntervals = False
+36.9767 	EXP 	target: autoDraw = False
+36.9767 	EXP 	target: color = u'green (named)'
+36.9767 	EXP 	target: text = u'red'
+36.9768 	EXP 	window1: recordFrameIntervals = False
+37.5010 	EXP 	target: autoDraw = True
+37.9442 	DATA 	Keypress: down
+37.9456 	EXP 	New trial (rep=2, index=3): {u'color': u'green', u'congruent': 1, u'word': u'green', u'corrAns': u'down'}
+37.9496 	EXP 	window1: recordFrameIntervals = False
+37.9604 	EXP 	target: autoDraw = False
+37.9604 	EXP 	target: color = u'green (named)'
+37.9604 	EXP 	target: text = u'green'
+37.9605 	EXP 	window1: recordFrameIntervals = False
+38.4758 	EXP 	target: autoDraw = True
+39.0109 	DATA 	Keypress: down
+39.0122 	EXP 	New trial (rep=2, index=4): {u'color': u'blue', u'congruent': 1, u'word': u'blue', u'corrAns': u'right'}
+39.0167 	EXP 	window1: recordFrameIntervals = False
+39.0270 	EXP 	target: autoDraw = False
+39.0270 	EXP 	target: color = u'blue (named)'
+39.0270 	EXP 	target: text = u'blue'
+39.0271 	EXP 	window1: recordFrameIntervals = False
+39.5439 	EXP 	target: autoDraw = True
+40.0780 	DATA 	Keypress: right
+40.0795 	EXP 	New trial (rep=2, index=5): {u'color': u'red', u'congruent': 0, u'word': u'blue', u'corrAns': u'left'}
+40.0833 	EXP 	window1: recordFrameIntervals = False
+40.0944 	EXP 	target: autoDraw = False
+40.0944 	EXP 	target: color = u'red (named)'
+40.0944 	EXP 	target: text = u'blue'
+40.0946 	EXP 	window1: recordFrameIntervals = False
+40.6107 	EXP 	target: autoDraw = True
+41.3608 	DATA 	Keypress: left
+41.3615 	EXP 	New trial (rep=3, index=0): {u'color': u'red', u'congruent': 0, u'word': u'blue', u'corrAns': u'left'}
+41.3641 	EXP 	window1: recordFrameIntervals = False
+41.3770 	EXP 	target: autoDraw = False
+41.3770 	EXP 	target: color = u'red (named)'
+41.3770 	EXP 	target: text = u'blue'
+41.3771 	EXP 	window1: recordFrameIntervals = False
+41.8943 	EXP 	target: autoDraw = True
+42.3610 	DATA 	Keypress: left
+42.3616 	EXP 	New trial (rep=3, index=1): {u'color': u'red', u'congruent': 1, u'word': u'red', u'corrAns': u'left'}
+42.3641 	EXP 	window1: recordFrameIntervals = False
+42.3774 	EXP 	target: autoDraw = False
+42.3774 	EXP 	target: color = u'red (named)'
+42.3774 	EXP 	target: text = u'red'
+42.3775 	EXP 	window1: recordFrameIntervals = False
+42.8946 	EXP 	target: autoDraw = True
+43.3290 	DATA 	Keypress: left
+43.3299 	EXP 	New trial (rep=3, index=2): {u'color': u'green', u'congruent': 0, u'word': u'red', u'corrAns': u'down'}
+43.3329 	EXP 	window1: recordFrameIntervals = False
+43.3441 	EXP 	target: autoDraw = False
+43.3441 	EXP 	target: color = u'green (named)'
+43.3441 	EXP 	target: text = u'red'
+43.3442 	EXP 	window1: recordFrameIntervals = False
+43.8759 	EXP 	target: autoDraw = True
+44.6804 	DATA 	Keypress: down
+44.6817 	EXP 	New trial (rep=3, index=3): {u'color': u'blue', u'congruent': 0, u'word': u'green', u'corrAns': u'right'}
+44.6862 	EXP 	window1: recordFrameIntervals = False
+44.6924 	EXP 	target: autoDraw = False
+44.6924 	EXP 	target: color = u'blue (named)'
+44.6924 	EXP 	target: text = u'green'
+44.6925 	EXP 	window1: recordFrameIntervals = False
+45.2272 	EXP 	target: autoDraw = True
+45.6622 	DATA 	Keypress: right
+45.6635 	EXP 	New trial (rep=3, index=4): {u'color': u'blue', u'congruent': 1, u'word': u'blue', u'corrAns': u'right'}
+45.6677 	EXP 	window1: recordFrameIntervals = False
+45.6770 	EXP 	target: autoDraw = False
+45.6770 	EXP 	target: color = u'blue (named)'
+45.6770 	EXP 	target: text = u'blue'
+45.6771 	EXP 	window1: recordFrameIntervals = False
+46.2116 	EXP 	target: autoDraw = True
+46.5618 	DATA 	Keypress: right
+46.5626 	EXP 	New trial (rep=3, index=5): {u'color': u'green', u'congruent': 1, u'word': u'green', u'corrAns': u'down'}
+46.5697 	EXP 	window1: recordFrameIntervals = False
+46.5760 	EXP 	target: autoDraw = False
+46.5760 	EXP 	target: color = u'green (named)'
+46.5760 	EXP 	target: text = u'green'
+46.5760 	EXP 	window1: recordFrameIntervals = False
+47.0952 	EXP 	target: autoDraw = True
+47.5625 	DATA 	Keypress: down
+47.5635 	EXP 	New trial (rep=4, index=0): {u'color': u'blue', u'congruent': 1, u'word': u'blue', u'corrAns': u'right'}
+47.5669 	EXP 	window1: recordFrameIntervals = False
+47.5786 	EXP 	target: autoDraw = False
+47.5786 	EXP 	target: color = u'blue (named)'
+47.5786 	EXP 	target: text = u'blue'
+47.5787 	EXP 	window1: recordFrameIntervals = False
+48.1119 	EXP 	target: autoDraw = True
+48.4457 	DATA 	Keypress: right
+48.4465 	EXP 	New trial (rep=4, index=1): {u'color': u'green', u'congruent': 1, u'word': u'green', u'corrAns': u'down'}
+48.4492 	EXP 	window1: recordFrameIntervals = False
+48.4619 	EXP 	target: autoDraw = False
+48.4619 	EXP 	target: color = u'green (named)'
+48.4619 	EXP 	target: text = u'green'
+48.4620 	EXP 	window1: recordFrameIntervals = False
+48.9964 	EXP 	target: autoDraw = True
+49.4465 	DATA 	Keypress: down
+49.4472 	EXP 	New trial (rep=4, index=2): {u'color': u'red', u'congruent': 0, u'word': u'blue', u'corrAns': u'left'}
+49.4498 	EXP 	window1: recordFrameIntervals = False
+49.4620 	EXP 	target: autoDraw = False
+49.4620 	EXP 	target: color = u'red (named)'
+49.4620 	EXP 	target: text = u'blue'
+49.4622 	EXP 	window1: recordFrameIntervals = False
+49.9789 	EXP 	target: autoDraw = True
+50.3301 	DATA 	Keypress: left
+50.3309 	EXP 	New trial (rep=4, index=3): {u'color': u'red', u'congruent': 1, u'word': u'red', u'corrAns': u'left'}
+50.3332 	EXP 	window1: recordFrameIntervals = False
+50.3454 	EXP 	target: autoDraw = False
+50.3454 	EXP 	target: color = u'red (named)'
+50.3454 	EXP 	target: text = u'red'
+50.3454 	EXP 	window1: recordFrameIntervals = False
+50.8622 	EXP 	target: autoDraw = True
+51.2797 	DATA 	Keypress: left
+51.2811 	EXP 	New trial (rep=4, index=4): {u'color': u'green', u'congruent': 0, u'word': u'red', u'corrAns': u'down'}
+51.2850 	EXP 	window1: recordFrameIntervals = False
+51.2958 	EXP 	target: autoDraw = False
+51.2958 	EXP 	target: color = u'green (named)'
+51.2958 	EXP 	target: text = u'red'
+51.2959 	EXP 	window1: recordFrameIntervals = False
+51.8175 	EXP 	target: autoDraw = True
+52.2301 	DATA 	Keypress: down
+52.2314 	EXP 	New trial (rep=4, index=5): {u'color': u'blue', u'congruent': 0, u'word': u'green', u'corrAns': u'right'}
+52.2359 	EXP 	window1: recordFrameIntervals = False
+52.2462 	EXP 	target: autoDraw = False
+52.2462 	EXP 	target: color = u'blue (named)'
+52.2462 	EXP 	target: text = u'green'
+52.2463 	EXP 	window1: recordFrameIntervals = False
+52.7796 	EXP 	target: autoDraw = True
+53.3311 	DATA 	Keypress: right

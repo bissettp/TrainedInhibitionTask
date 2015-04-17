@@ -1,0 +1,6 @@
+corrGoResp,yPosGoStim,xPosGoStim,Blocks.thisRepN,Blocks.thisTrialN,Blocks.thisN,Blocks.thisIndex,StopBlocks.thisRepN,StopBlocks.thisTrialN,StopBlocks.thisN,StopBlocks.thisIndex,StopBlocks.thisTrial,StopTrials.thisRepN,StopTrials.thisTrialN,StopTrials.thisN,StopTrials.thisIndex,ok1.keys,ok1.rt,goResp.keys,goResp.corr,goResp.rt,expName,gender (m/f),age,frameRate,session,date,participant,
+,,,,,,,,,,,,,,,,space,0.382168054581,,,,LearningTask,,,59.949888156,3,2015_Mar_31_0957,3005,
+z,0,-200,,,,,0,0,0,0,None,0,0,0,0,,,z,1,0.700713157654,LearningTask,,,59.949888156,3,2015_Mar_31_0957,3005,
+m,0,200,,,,,0,0,0,0,None,0,1,1,1,,,m,1,0.751065969467,LearningTask,,,59.949888156,3,2015_Mar_31_0957,3005,
+z,0,-200,,,,,0,0,0,0,None,1,0,2,0,,,z,1,0.313827037811,LearningTask,,,59.949888156,3,2015_Mar_31_0957,3005,
+m,0,200,,,,,0,0,0,0,None,1,1,3,1,,,m,1,0.434091091156,LearningTask,,,59.949888156,3,2015_Mar_31_0957,3005,

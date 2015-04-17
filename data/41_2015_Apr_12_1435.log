@@ -1,0 +1,10 @@
+0.3414 	WARNING 	Movie2 stim could not be imported and won't be available
+5.4296 	WARNING 	t of last frame was 22.56ms (=1/44)
+5.6135 	WARNING 	t of last frame was 21.92ms (=1/45)
+6.9747 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+7.5217 	WARNING 	t of last frame was 547.09ms (=1/1)
+7.5798 	WARNING 	t of last frame was 22.39ms (=1/44)
+8.1089 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!

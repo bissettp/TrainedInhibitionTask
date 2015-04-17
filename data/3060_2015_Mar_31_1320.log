@@ -1,0 +1,6 @@
+0.6839 	WARNING 	Movie2 stim could not be imported and won't be available
+8.3850 	WARNING 	t of last frame was 30.12ms (=1/33)
+8.5350 	WARNING 	t of last frame was 33.35ms (=1/29)
+8.6887 	WARNING 	t of last frame was 20.31ms (=1/49)
+8.8560 	WARNING 	t of last frame was 20.81ms (=1/48)
+8.8853 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
