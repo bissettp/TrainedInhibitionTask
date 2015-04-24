@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Fri Apr 24 11:39:11 2015
+This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Fri Apr 24 13:43:48 2015
 If you publish work using this script please cite the relevant PsychoPy publications
   Peirce, JW (2007) PsychoPy - Psychophysics software in Python. Journal of Neuroscience Methods, 162(1-2), 8-13.
   Peirce, JW (2009) Generating stimuli for neuroscience using PsychoPy. Frontiers in Neuroinformatics, 2:10. doi: 10.3389/neuro.11.010.2008
@@ -58,6 +58,8 @@ else:
 
 # Initialize components for Routine "StimSetup"
 StimSetupClock = core.Clock()
+#***************************
+
 from copy import deepcopy
 import random
 
@@ -143,6 +145,8 @@ for l in range(0, auctionAmounts):
 
 shuffle(auctionTrialList)
 
+#***************************
+
 # Initialize components for Routine "instrPractice"
 instrPracticeClock = core.Clock()
 instruct1 = visual.TextStim(win=win, ori=0, name='instruct1',
@@ -171,8 +175,12 @@ learningStim = visual.ImageStim(win=win, name='learningStim',units='pix',
 
 # Initialize components for Routine "feedback"
 feedbackClock = core.Clock()
+#***************************
+
 #message variable just needs some value at start
 message=0
+
+#***************************
 feedback_2 = visual.TextStim(win=win, ori=0, name='feedback_2',
     text='default text',    font='Arial',
     pos=[0, 0], height=.2, wrapWidth=None,
@@ -279,8 +287,12 @@ learningStim = visual.ImageStim(win=win, name='learningStim',units='pix',
 
 # Initialize components for Routine "feedback"
 feedbackClock = core.Clock()
+#***************************
+
 #message variable just needs some value at start
 message=0
+
+#***************************
 feedback_2 = visual.TextStim(win=win, ori=0, name='feedback_2',
     text='default text',    font='Arial',
     pos=[0, 0], height=.2, wrapWidth=None,
@@ -619,9 +631,13 @@ for thisPracTrial in pracTrials:
     NewPracStimClock.reset()  # clock 
     frameN = -1
     # update component parameters for each repeat
+    #***************************
+    
     currentLearningPracTrial = learningPracTrialList.pop(0)
     currentStimulus = currentLearningPracTrial['fileName']
     currentReward = currentLearningPracTrial['reward']
+    
+    #***************************
     # keep track of which components have finished
     NewPracStimComponents = []
     for thisComponent in NewPracStimComponents:
@@ -793,6 +809,8 @@ for thisPracTrial in pracTrials:
         frameN = -1
         routineTimer.add(1.000000)
         # update component parameters for each repeat
+        #***************************
+        
         import random
         
         displayReward = random.randrange(1, 6)
@@ -810,6 +828,8 @@ for thisPracTrial in pracTrials:
           message="Wrong"
         
           msg="Correct! RT=%.3f" %(resp.rt)
+        
+        #***************************
         feedback_2.setText(message)
         image.setPos([xPos, yPos])
         image.setImage(currentStimulus)
@@ -876,6 +896,8 @@ for thisPracTrial in pracTrials:
         ExitPracClock.reset()  # clock 
         frameN = -1
         # update component parameters for each repeat
+        #***************************
+        
         # I only want to sample a new trial once subjects have correctedly responded to the previous trial
         if resp.corr:
             ReDoLoopPrac.finished = True
@@ -883,6 +905,8 @@ for thisPracTrial in pracTrials:
         #Outputting some timing data
         pracTrials.addData("learningStimOnset", learningStim.tStart)
         pracTrials.addData("learningFixOnset", learningFix.tStart)
+        
+        #***************************
         # keep track of which components have finished
         ExitPracComponents = []
         for thisComponent in ExitPracComponents:
@@ -1004,6 +1028,8 @@ frameN = -1
 # update component parameters for each repeat
 key_resp_2 = event.BuilderKeyResponse()  # create an object of type KeyResponse
 key_resp_2.status = NOT_STARTED
+#***************************
+
 InitSSD = .25
 SSDLeft = InitSSD
 SSDRight = InitSSD
@@ -1014,6 +1040,8 @@ commissionCount = 0
 stopTrialCount = 0
 stopSuccessCount = 0
 goTrialCount = 0
+
+#***************************
 # keep track of which components have finished
 instrStopPracComponents = []
 instrStopPracComponents.append(instrStopText)
@@ -1105,6 +1133,8 @@ for thisPracStopTrial in pracStopTrials:
     newPracStopStimClock.reset()  # clock 
     frameN = -1
     # update component parameters for each repeat
+    #***************************
+    
     currentStopPracTrial = stopPracTrialList.pop(0)
     currentGoStim = currentStopPracTrial['fileName']
     currentStopOrGo = currentStopPracTrial['stopOrGo']
@@ -1119,6 +1149,8 @@ for thisPracStopTrial in pracStopTrials:
     pracStopTrials.addData("trialType", currentStopOrGo)
     pracStopTrials.addData("goStim", currentGoStim)
     SSDInput = SSD + .5 # +.5 because that's the duration of the fixation cross before the go stim appears
+    
+    #***************************
     # keep track of which components have finished
     newPracStopStimComponents = []
     for thisComponent in newPracStopStimComponents:
@@ -1332,6 +1364,8 @@ for thisPracStopTrial in pracStopTrials:
     pracStopCleanUpClock.reset()  # clock 
     frameN = -1
     # update component parameters for each repeat
+    #***************************
+    
     if currentStopPracTrial['stopOrGo'] == 'go':
         goTrialCount = goTrialCount + 1
     
@@ -1363,6 +1397,8 @@ for thisPracStopTrial in pracStopTrials:
     pracStopTrials.addData("goStimOnset", goStim.tStart)
     if SSD  != -1:
         pracStopTrials.addData("stopSignalOnset", stopSignal.tStart)
+    
+    #***************************
     # keep track of which components have finished
     pracStopCleanUpComponents = []
     for thisComponent in pracStopCleanUpComponents:
@@ -1419,6 +1455,8 @@ t = 0
 endOfStopBlockFeedbackClock.reset()  # clock 
 frameN = -1
 # update component parameters for each repeat
+#***************************
+
 if goRTCount > 0:
     goRTFeedback = goCumRT/goRTCount
     goRTFeedback = round(goRTFeedback, 2)
@@ -1444,6 +1482,8 @@ SSDFeedback = (SSDLeft+SSDRight)/2
 SSDFeedback = round(SSDFeedback, 2)
 
 stopMessage = " RT = " + str(goRTFeedback) + "\n Omission % = " + str(omissionRate) + "\n Commission % = " + str(commissionRate) + "\n\n\n\n " + str(probabilityOfStop) + "\n " + str(SSDFeedback)
+
+#***************************
 text_5.setText(stopMessage
 )
 key_resp_3 = event.BuilderKeyResponse()  # create an object of type KeyResponse
@@ -1633,7 +1673,11 @@ for thisBlock in Blocks:
     ResetAtBlockClock.reset()  # clock 
     frameN = -1
     # update component parameters for each repeat
+    #***************************
+    
     Redo = 1
+    
+    #***************************
     # keep track of which components have finished
     ResetAtBlockComponents = []
     for thisComponent in ResetAtBlockComponents:
@@ -1698,9 +1742,13 @@ for thisBlock in Blocks:
         NewStimClock.reset()  # clock 
         frameN = -1
         # update component parameters for each repeat
+        #***************************
+        
         currentLearningTrial = learningTrialList.pop(0)
         currentStimulus = currentLearningTrial['fileName']
         currentReward = currentLearningTrial['reward']
+        
+        #***************************
         # keep track of which components have finished
         NewStimComponents = []
         for thisComponent in NewStimComponents:
@@ -1872,6 +1920,8 @@ for thisBlock in Blocks:
             frameN = -1
             routineTimer.add(1.000000)
             # update component parameters for each repeat
+            #***************************
+            
             import random
             
             displayReward = random.randrange(1, 6)
@@ -1889,6 +1939,8 @@ for thisBlock in Blocks:
               message="Wrong"
             
               msg="Correct! RT=%.3f" %(resp.rt)
+            
+            #***************************
             feedback_2.setText(message)
             image.setPos([xPos, yPos])
             image.setImage(currentStimulus)
@@ -1955,6 +2007,8 @@ for thisBlock in Blocks:
             ExitMainClock.reset()  # clock 
             frameN = -1
             # update component parameters for each repeat
+            #***************************
+            
             if resp.corr:
                 ReDoLoopMain.finished = True
                 rewardList.append(deepcopy(computedReward))
@@ -1962,6 +2016,8 @@ for thisBlock in Blocks:
             trials.addData("computedRewardOutput", computedReward)
             trials.addData("learningStimOnset", learningStim.tStart)
             trials.addData("learningFixOnset", learningFix.tStart)
+            
+            #***************************
             # keep track of which components have finished
             ExitMainComponents = []
             for thisComponent in ExitMainComponents:
@@ -2094,6 +2150,8 @@ frameN = -1
 # update component parameters for each repeat
 key_resp_2 = event.BuilderKeyResponse()  # create an object of type KeyResponse
 key_resp_2.status = NOT_STARTED
+#***************************
+
 InitSSD = .25
 SSDLeft = InitSSD
 SSDRight = InitSSD
@@ -2104,6 +2162,8 @@ commissionCount = 0
 stopTrialCount = 0
 stopSuccessCount = 0
 goTrialCount = 0
+
+#***************************
 # keep track of which components have finished
 instrStopPracComponents = []
 instrStopPracComponents.append(instrStopText)
@@ -2195,6 +2255,8 @@ for thisStopBlock in StopBlocks:
     stopBlockSetupClock.reset()  # clock 
     frameN = -1
     # update component parameters for each repeat
+    #***************************
+    
     goCumRT = 0
     goRTCount = 0
     omissionCount = 0
@@ -2202,6 +2264,8 @@ for thisStopBlock in StopBlocks:
     stopTrialCount = 0
     stopSuccessCount = 0
     goTrialCount = 0
+    
+    #***************************
     # keep track of which components have finished
     stopBlockSetupComponents = []
     for thisComponent in stopBlockSetupComponents:
@@ -2266,6 +2330,8 @@ for thisStopBlock in StopBlocks:
         newStopStimClock.reset()  # clock 
         frameN = -1
         # update component parameters for each repeat
+        #***************************
+        
         currentStopTrial = stopTrialList.pop(0)
         currentGoStim = currentStopTrial['fileName']
         currentStopOrGo = currentStopTrial['stopOrGo']
@@ -2283,6 +2349,8 @@ for thisStopBlock in StopBlocks:
         StopTrials.addData("trialType", currentStopOrGo)
         StopTrials.addData("goStim", currentGoStim)
         SSDInput = SSD + .5
+        
+        #***************************
         # keep track of which components have finished
         newStopStimComponents = []
         for thisComponent in newStopStimComponents:
@@ -2496,6 +2564,8 @@ for thisStopBlock in StopBlocks:
         SSDChangeClock.reset()  # clock 
         frameN = -1
         # update component parameters for each repeat
+        #***************************
+        
         #Adjusting SSD within a range of 0-800ms
         if currentStopTrial['stopOrGo'] == 'stop':
             if goResp.keys is None:
@@ -2545,6 +2615,8 @@ for thisStopBlock in StopBlocks:
         StopTrials.addData("goStimOnset", goStim.tStart)
         if SSD  != -1:
             StopTrials.addData("stopSignalOnset", stopSignal.tStart)
+        
+        #***************************
         # keep track of which components have finished
         SSDChangeComponents = []
         for thisComponent in SSDChangeComponents:
@@ -2581,7 +2653,11 @@ for thisStopBlock in StopBlocks:
         for thisComponent in SSDChangeComponents:
             if hasattr(thisComponent, "setAutoDraw"):
                 thisComponent.setAutoDraw(False)
+        #***************************
+        
         StopTrials.addData("EndingSSD", SSD)
+        
+        #***************************
         # the Routine "SSDChange" was not non-slip safe, so reset the non-slip timer
         routineTimer.reset()
         thisExp.nextEntry()
@@ -2601,6 +2677,8 @@ for thisStopBlock in StopBlocks:
     endOfStopBlockFeedbackClock.reset()  # clock 
     frameN = -1
     # update component parameters for each repeat
+    #***************************
+    
     if goRTCount > 0:
         goRTFeedback = goCumRT/goRTCount
         goRTFeedback = round(goRTFeedback, 2)
@@ -2626,6 +2704,8 @@ for thisStopBlock in StopBlocks:
     SSDFeedback = round(SSDFeedback, 2)
     
     stopMessage = " RT = " + str(goRTFeedback) + "\n Omission % = " + str(omissionRate) + "\n Commission % = " + str(commissionRate) + "\n\n\n\n " + str(probabilityOfStop) + "\n " + str(SSDFeedback)
+    
+    #***************************
     text_5.setText(stopMessage
 )
     key_resp_3 = event.BuilderKeyResponse()  # create an object of type KeyResponse
@@ -2844,15 +2924,13 @@ for thisAuctionBlock in auctionBlocks:
         newAuctionStimClock.reset()  # clock 
         frameN = -1
         # update component parameters for each repeat
+        #***************************
+        
         currentAuctionTrial = auctionTrialList.pop(0)
         currentAuctionStim = currentAuctionTrial['fileName']
         currentAuctionAmount = currentAuctionTrial['auctionAmount']
-        currentAuctionAmountOne = currentAuctionAmount[0]
-        currentAuctionAmountTwo = currentAuctionAmount[1]
-        currentAuctionAmountThree = currentAuctionAmount[2]
-        currentAuctionAmountFour = currentAuctionAmount[3]
-        currentAuctionAmountFive = currentAuctionAmount[4]
-        currentAuctionAmountSix = currentAuctionAmount[5]
+        
+        #***************************
         # keep track of which components have finished
         newAuctionStimComponents = []
         for thisComponent in newAuctionStimComponents:
@@ -3223,6 +3301,8 @@ t = 0
 rewardCalcClock.reset()  # clock 
 frameN = -1
 # update component parameters for each repeat
+#***************************
+
 shuffle(rewardList)
 chosenReward1 = rewardList.pop(0)
 chosenReward2 = rewardList.pop(1)
@@ -3233,6 +3313,8 @@ chosenReward5 = rewardList.pop(4)
 totalReward = 12 + chosenReward1 + chosenReward2 + chosenReward3 + chosenReward4 + chosenReward5
 
 displayedReward = "In total, you earned $ %.2f" %totalReward
+
+#***************************
 
 
 text_11.setText(displayedReward)
