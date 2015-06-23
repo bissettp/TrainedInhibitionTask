@@ -85,7 +85,7 @@
       <CodeComponent name="message">
         <Param name="Begin Experiment" val="#***************************&#10;&#10;#message variable just needs some value at start&#10;message=0&#10;&#10;#***************************" valType="extendedCode" updates="constant"/>
         <Param name="name" val="message" valType="code" updates="None"/>
-        <Param name="Begin Routine" val="#***************************&#10;&#10;import random&#10;&#10;displayReward = random.randrange(1, 6)&#10;&#10;if resp.corr:#stored on last run routine&#10;    if displayReward == 1:&#10;        computedReward = 0 # On 20% of all trials I want to give a 0 reward&#10;    else: &#10;        computedReward = round(currentReward + (random.randrange(-25, 26)*.01), 2)&#10;    message = &quot;You won $ %.2f&quot; %computedReward&#10;elif resp.keys is None: &#10;    message =&quot;Too Slow&quot;&#10;else:&#10;    message=&quot;Wrong&quot;&#10;&#10;#***************************" valType="extendedCode" updates="constant"/>
+        <Param name="Begin Routine" val="#***************************&#10;&#10;import random&#10;&#10;displayReward = random.randrange(1, 6)&#10;&#10;if resp.corr:#stored on last run routine&#10;    if displayReward == 1:&#10;        computedReward = 0 # On 20% of all trials I want to give a 0 reward&#10;    else: &#10;        computedReward = round(currentReward + (random.randrange(-25, 26)*.01), 2)&#10;    message = &quot;You won $ %.2f&quot; %computedReward&#10;elif resp.keys is None: &#10;    message =&quot;Too Slow&quot;&#10;    computedReward = 0 &#10;else:&#10;    message=&quot;Wrong&quot;&#10;    computedReward = 0&#10;&#10;#***************************" valType="extendedCode" updates="constant"/>
         <Param name="End Routine" val="" valType="extendedCode" updates="constant"/>
         <Param name="End Experiment" val="" valType="extendedCode" updates="constant"/>
         <Param name="Each Frame" val="" valType="extendedCode" updates="constant"/>
@@ -172,8 +172,8 @@
       <CodeComponent name="code_19">
         <Param name="Begin Experiment" val="" valType="extendedCode" updates="constant"/>
         <Param name="name" val="code_19" valType="code" updates="None"/>
-        <Param name="Begin Routine" val="" valType="extendedCode" updates="constant"/>
-        <Param name="End Routine" val="auctionTrials.addData(&quot;EndTrialTimeStamp&quot;, core.getTime())&#10;auctionTrials.addData(&quot;auctionStim&quot;, currentAuctionStim)&#10;auctionTrials.addData(&quot;auctionAmounts&quot;, currentAuctionAmount)&#10;auctionTrials.addData(&quot;auctionStimValue&quot;, currentAuctionStimValue)&#10;auctionTrials.addData(&quot;auctionCondition&quot;, currentAuctionCondition)" valType="extendedCode" updates="constant"/>
+        <Param name="Begin Routine" val="if auctionResponse.keys == 'r':&#10;    chosenAuctionAmount = currentAuctionAmount[0]&#10;elif auctionResponse.keys == 't':&#10;    chosenAuctionAmount = currentAuctionAmount[1]&#10;elif auctionResponse.keys == 'y':&#10;    chosenAuctionAmount = currentAuctionAmount[2]&#10;elif auctionResponse.keys == 'u':&#10;    chosenAuctionAmount = currentAuctionAmount[3]&#10;elif auctionResponse.keys == 'i':&#10;    chosenAuctionAmount = currentAuctionAmount[4]&#10;elif auctionResponse.keys == 'o':&#10;    chosenAuctionAmount = currentAuctionAmount[5]&#10;else: &#10;    chosenAuctionAmount = 0" valType="extendedCode" updates="constant"/>
+        <Param name="End Routine" val="auctionTrials.addData(&quot;EndTrialTimeStamp&quot;, core.getTime())&#10;auctionTrials.addData(&quot;auctionStim&quot;, currentAuctionStim)&#10;auctionTrials.addData(&quot;auctionAmounts&quot;, currentAuctionAmount)&#10;auctionTrials.addData(&quot;auctionStimValue&quot;, currentAuctionStimValue)&#10;auctionTrials.addData(&quot;auctionCondition&quot;, currentAuctionCondition)&#10;auctionTrials.addData(&quot;chosenAuctionAmount&quot;, chosenAuctionAmount)" valType="extendedCode" updates="constant"/>
         <Param name="End Experiment" val="" valType="extendedCode" updates="constant"/>
         <Param name="Each Frame" val="" valType="extendedCode" updates="constant"/>
       </CodeComponent>
@@ -480,7 +480,7 @@
         <Param name="Begin Experiment" val="" valType="extendedCode" updates="constant"/>
         <Param name="name" val="code_18" valType="code" updates="None"/>
         <Param name="Begin Routine" val="startTime = trialClock.getTime()&#10;&#10;" valType="extendedCode" updates="constant"/>
-        <Param name="End Routine" val="endTime = trialClock.getTime()&#10;ITIDur = endTime - startTime&#10;&#10;auctionTrials.addData(&quot;auctionStimDuration&quot;, ITIDur)&#10;&#10;" valType="extendedCode" updates="constant"/>
+        <Param name="End Routine" val="endTime = trialClock.getTime()&#10;auctionStimDuration = endTime - startTime&#10;ITIDur = 6 - auctionStimDuration&#10;&#10;auctionTrials.addData(&quot;auctionStimDuration&quot;, auctionStimDuration)&#10;&#10;" valType="extendedCode" updates="constant"/>
         <Param name="End Experiment" val="" valType="extendedCode" updates="constant"/>
         <Param name="Each Frame" val="" valType="extendedCode" updates="constant"/>
       </CodeComponent>
@@ -520,7 +520,7 @@
       <CodeComponent name="code_2">
         <Param name="Begin Experiment" val="" valType="extendedCode" updates="constant"/>
         <Param name="name" val="code_2" valType="code" updates="None"/>
-        <Param name="Begin Routine" val="#***************************&#10;&#10;#Adjusting SSD within a range of 0-750ms&#10;if currentStopTrial['stopOrGo'] == 'stop':&#10;    if goResp.keys is None:&#10;        if SSD &lt;= .75:&#10;            if xPosGoStim == -200:&#10;                SSDLeft = deepcopy(SSDLeft)  + .05&#10;                SSD = SSDLeft&#10;            if xPosGoStim == 200:&#10;                SSDRight = deepcopy(SSDRight) + .05&#10;                SSD = SSDRight&#10;    else:&#10;        if SSD &gt; 0:&#10;            if xPosGoStim == -200:&#10;                SSDLeft = deepcopy(SSDLeft) - .05&#10;                SSD = SSDLeft&#10;            if xPosGoStim == 200:&#10;                SSDRight = deepcopy(SSDRight) - .05&#10;                SSD = SSDRight&#10;&#10;if currentStopTrial['stopOrGo'] == 'go':&#10;    goTrialCount = goTrialCount + 1&#10;&#10;if goResp.corr and currentStopTrial['stopOrGo'] == 'go':&#10;    goCumRT = goCumRT + goResp.rt&#10;    goRTCount = goRTCount + 1&#10;&#10;if currentStopTrial['stopOrGo'] == 'stop':&#10;    stopTrialCount = stopTrialCount + 1&#10;&#10;if currentStopTrial['stopOrGo'] == 'stop' and goResp.keys is None and key_resp_9.keys is None:&#10;    stopSuccessCount = stopSuccessCount + 1&#10;&#10;if currentStopTrial['stopOrGo'] == 'go':&#10;    if goResp.keys is None:&#10;        omissionCount = omissionCount + 1&#10;    elif goResp.corr == 0:&#10;        commissionCount = commissionCount + 1&#10;&#10;StopTrials.addData(&quot;fixStopOnset&quot;, fixStop.tStart)&#10;StopTrials.addData(&quot;goStimOnset&quot;, goStim.tStart)&#10;if SSD  != -1:&#10;    StopTrials.addData(&quot;stopSignalOnset&quot;, stopSignal.tStart)&#10;&#10;#***************************" valType="extendedCode" updates="constant"/>
+        <Param name="Begin Routine" val="#***************************&#10;&#10;#Adjusting SSD within a range of 0-750ms&#10;if currentStopTrial['stopOrGo'] == 'stop':&#10;    if goResp.keys is None:&#10;        if SSD &lt;= .75:&#10;            if xPosGoStim == -200:&#10;                SSDLeft = deepcopy(SSDLeft)  + .05&#10;                SSD = SSDLeft&#10;            if xPosGoStim == 200:&#10;                SSDRight = deepcopy(SSDRight) + .05&#10;                SSD = SSDRight&#10;    else:&#10;        if SSD &gt; .001:&#10;            if xPosGoStim == -200:&#10;                SSDLeft = deepcopy(SSDLeft) - .05&#10;                SSD = SSDLeft&#10;            if xPosGoStim == 200:&#10;                SSDRight = deepcopy(SSDRight) - .05&#10;                SSD = SSDRight&#10;&#10;if currentStopTrial['stopOrGo'] == 'go':&#10;    goTrialCount = goTrialCount + 1&#10;&#10;if goResp.corr and currentStopTrial['stopOrGo'] == 'go':&#10;    goCumRT = goCumRT + goResp.rt&#10;    goRTCount = goRTCount + 1&#10;&#10;if currentStopTrial['stopOrGo'] == 'stop':&#10;    stopTrialCount = stopTrialCount + 1&#10;&#10;if currentStopTrial['stopOrGo'] == 'stop' and goResp.keys is None and key_resp_9.keys is None:&#10;    stopSuccessCount = stopSuccessCount + 1&#10;&#10;if currentStopTrial['stopOrGo'] == 'go':&#10;    if goResp.keys is None:&#10;        omissionCount = omissionCount + 1&#10;    elif goResp.corr == 0:&#10;        commissionCount = commissionCount + 1&#10;&#10;StopTrials.addData(&quot;fixStopOnset&quot;, fixStop.tStart)&#10;StopTrials.addData(&quot;goStimOnset&quot;, goStim.tStart)&#10;if SSD  != -1:&#10;    StopTrials.addData(&quot;stopSignalOnset&quot;, stopSignal.tStart)&#10;&#10;#***************************" valType="extendedCode" updates="constant"/>
         <Param name="End Routine" val="#***************************&#10;&#10;StopTrials.addData(&quot;EndingSSD&quot;, SSD)&#10;StopTrials.addData(&quot;EndTrialTimeStamp&quot;, core.getTime())&#10;&#10;#***************************" valType="extendedCode" updates="constant"/>
         <Param name="End Experiment" val="" valType="extendedCode" updates="constant"/>
         <Param name="Each Frame" val="" valType="extendedCode" updates="constant"/>
@@ -646,7 +646,7 @@
       <CodeComponent name="code_12">
         <Param name="Begin Experiment" val="" valType="extendedCode" updates="constant"/>
         <Param name="name" val="code_12" valType="code" updates="None"/>
-        <Param name="Begin Routine" val="#***************************&#10;pracStopTrials.addData(&quot;StartTrialTimeStamp&quot;, core.getTime())&#10;&#10;currentStopPracTrial = stopPracTrialList.pop(0)&#10;currentGoStim = currentStopPracTrial['fileName']&#10;currentStopOrGo = currentStopPracTrial['stopOrGo']&#10;currentStimType = currentStopPracTrial['condition']&#10;currentStopStimValue = currentStopPracTrial['reward']&#10;&#10;if currentStopOrGo == 'stop':&#10;    SSD = .25&#10;elif currentStopOrGo == 'go': &#10;    SSD = -1 #This makes it so the auditory tone does not occur. There's probably a more elegant way to do this. Suggestions?&#10;&#10;#&#10;pracStopTrials.addData(&quot;trialType&quot;, currentStopOrGo)&#10;pracStopTrials.addData(&quot;goStim&quot;, currentGoStim)&#10;pracStopTrials.addData(&quot;stimType&quot;, currentStimType)&#10;pracStopTrials.addData(&quot;stopStimValue&quot;, currentStopStimValue)&#10;SSDInput = SSD + .5 # +.5 because that's the duration of the fixation cross before the go stim appears&#10;&#10;#***************************" valType="extendedCode" updates="constant"/>
+        <Param name="Begin Routine" val="#***************************&#10;pracStopTrials.addData(&quot;StartTrialTimeStamp&quot;, core.getTime())&#10;&#10;currentStopPracTrial = stopPracTrialList.pop(0)&#10;currentGoStim = currentStopPracTrial['fileName']&#10;currentStopOrGo = currentStopPracTrial['stopOrGo']&#10;currentStimType = currentStopPracTrial['condition']&#10;currentStopStimValue = currentStopPracTrial['reward']&#10;&#10;if currentStopOrGo == 'stop':&#10;    SSD = .25&#10;    stopSignal.setVolume(.2)&#10;elif currentStopOrGo == 'go': &#10;    SSD = -1 #This makes it so the auditory tone does not occur. There's probably a more elegant way to do this. Suggestions?&#10;    stopSignal.setVolume(0)&#10;#&#10;pracStopTrials.addData(&quot;trialType&quot;, currentStopOrGo)&#10;pracStopTrials.addData(&quot;goStim&quot;, currentGoStim)&#10;pracStopTrials.addData(&quot;stimType&quot;, currentStimType)&#10;pracStopTrials.addData(&quot;stopStimValue&quot;, currentStopStimValue)&#10;SSDInput = SSD + .5 # +.5 because that's the duration of the fixation cross before the go stim appears&#10;&#10;#***************************" valType="extendedCode" updates="constant"/>
         <Param name="End Routine" val="" valType="extendedCode" updates="constant"/>
         <Param name="End Experiment" val="" valType="extendedCode" updates="constant"/>
         <Param name="Each Frame" val="" valType="extendedCode" updates="constant"/>
@@ -666,7 +666,7 @@
       <CodeComponent name="code_10">
         <Param name="Begin Experiment" val="" valType="extendedCode" updates="constant"/>
         <Param name="name" val="code_10" valType="code" updates="None"/>
-        <Param name="Begin Routine" val="#***************************&#10;&#10;if goRTCount &gt; 0:&#10;    goRTFeedback = goCumRT/goRTCount&#10;    goRTFeedback = round(goRTFeedback, 2)&#10;else:&#10;    goRTFeedback = 'Null'&#10;&#10;if goTrialCount &gt; 0:&#10;    commissionRate = (commissionCount/goTrialCount)*100&#10;    commissionRate = round(commissionRate, 2)&#10;    omissionRate = (omissionCount/goTrialCount)*100&#10;    omissionRate = round(omissionRate, 2)&#10;else: &#10;    commissionRate = 'Null'&#10;    omissionRate = 'Null'&#10;&#10;if stopTrialCount &gt; 0: &#10;    probabilityOfStop = stopSuccessCount/stopTrialCount&#10;    probabilityOfStop = round(probabilityOfStop, 2)&#10;else:&#10;    probabilityOfStop = 'Null'&#10;&#10;SSDFeedback = (SSDLeft+SSDRight)/2&#10;SSDFeedback = round(SSDFeedback, 2)&#10;&#10;stopMessage = &quot; RT = &quot; + str(goRTFeedback) + &quot;\n Omission % = &quot; + str(omissionRate) + &quot;\n Commission % = &quot; + str(commissionRate) + &quot;\n\n\n\n &quot; + str(probabilityOfStop) + &quot;\n &quot; + str(SSDFeedback)&#10;&#10;#***************************" valType="extendedCode" updates="constant"/>
+        <Param name="Begin Routine" val="#***************************&#10;&#10;if goRTCount &gt; 0:&#10;    goRTFeedback = goCumRT/goRTCount&#10;    goRTFeedback = round(goRTFeedback, 2)&#10;else:&#10;    goRTFeedback = 'Null'&#10;&#10;if goTrialCount &gt; 0:&#10;    commissionRate = (commissionCount/goTrialCount)*100&#10;    commissionRate = round(commissionRate, 2)&#10;    omissionRate = (omissionCount/goTrialCount)*100&#10;    omissionRate = round(omissionRate, 2)&#10;else: &#10;    commissionRate = 'Null'&#10;    omissionRate = 'Null'&#10;&#10;if stopTrialCount &gt; 0: &#10;    probabilityOfStop = stopSuccessCount/stopTrialCount&#10;    probabilityOfStop = round(probabilityOfStop, 2)&#10;else:&#10;    probabilityOfStop = 'Null'&#10;&#10;SSDFeedback = (SSDLeft+SSDRight)/2&#10;SSDFeedback = round(SSDFeedback, 2)&#10;&#10;stopMessage = &quot; RT = &quot; + str(goRTFeedback) + &quot;\n Omission % = &quot; + str(omissionRate) + &quot;\n Commission % = &quot; + str(commissionRate) + &quot;\n\n\n\n &quot; + str(probabilityOfStop) + &quot;\n &quot; + str(SSDFeedback) + &quot;\n\n (Press the 9 key to continue)&quot;&#10;&#10;#***************************" valType="extendedCode" updates="constant"/>
         <Param name="End Routine" val="" valType="extendedCode" updates="constant"/>
         <Param name="End Experiment" val="" valType="extendedCode" updates="constant"/>
         <Param name="Each Frame" val="" valType="extendedCode" updates="constant"/>
@@ -677,7 +677,7 @@
         <Param name="name" val="text_5" valType="code" updates="None"/>
         <Param name="wrapWidth" val="" valType="code" updates="constant"/>
         <Param name="color" val="white" valType="str" updates="constant"/>
-        <Param name="text" val="$stopMessage&#10;" valType="str" updates="set every repeat"/>
+        <Param name="text" val="$stopMessage" valType="str" updates="set every repeat"/>
         <Param name="stopVal" val="" valType="code" updates="constant"/>
         <Param name="durationEstim" val="" valType="code" updates="None"/>
         <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
@@ -701,7 +701,7 @@
         <Param name="startEstim" val="" valType="code" updates="None"/>
         <Param name="discard previous" val="True" valType="bool" updates="constant"/>
         <Param name="startType" val="time (s)" valType="str" updates="None"/>
-        <Param name="allowedKeys" val="'y','n','left','right','space'" valType="code" updates="set every repeat"/>
+        <Param name="allowedKeys" val="'9'" valType="code" updates="set every repeat"/>
         <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
         <Param name="startVal" val="0.0" valType="code" updates="None"/>
         <Param name="store" val="last key" valType="str" updates="constant"/>
@@ -767,7 +767,7 @@
     <Routine name="StopTrial">
       <SoundComponent name="stopSignal">
         <Param name="sound" val="900" valType="str" updates="constant"/>
-        <Param name="volume" val=".2" valType="code" updates="constant"/>
+        <Param name="volume" val="" valType="code" updates="constant"/>
         <Param name="name" val="stopSignal" valType="code" updates="None"/>
         <Param name="stopVal" val=".2" valType="code" updates="constant"/>
         <Param name="durationEstim" val="" valType="code" updates="None"/>
@@ -853,7 +853,7 @@
         <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
         <Param name="startVal" val="0.0" valType="code" updates="None"/>
         <Param name="font" val="Arial" valType="str" updates="constant"/>
-        <Param name="letterHeight" val="0.1" valType="code" updates="constant"/>
+        <Param name="letterHeight" val="0.07" valType="code" updates="constant"/>
       </TextComponent>
       <KeyboardComponent name="key_resp_2">
         <Param name="correctAns" val="" valType="str" updates="constant"/>
@@ -1079,7 +1079,7 @@
         <Param name="name" val="text_7" valType="code" updates="None"/>
         <Param name="wrapWidth" val="" valType="code" updates="constant"/>
         <Param name="color" val="white" valType="str" updates="constant"/>
-        <Param name="text" val="You will now read instructions on the final phase of the study&#10;&#10;Press the 9 key to continue" valType="str" updates="constant"/>
+        <Param name="text" val="Please go get the Experimenter so that you can read the written instructions for final phase of the study. &#10;&#10;The payoff from this final phase will be paid out at the end of the experiment. &#10;&#10;Press the 9 key after you have gotten the experimenter and read the instructions. " valType="str" updates="constant"/>
         <Param name="stopVal" val="" valType="code" updates="constant"/>
         <Param name="durationEstim" val="" valType="code" updates="None"/>
         <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
@@ -1091,7 +1091,7 @@
         <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
         <Param name="startVal" val="0.0" valType="code" updates="None"/>
         <Param name="font" val="Arial" valType="str" updates="constant"/>
-        <Param name="letterHeight" val="0.1" valType="code" updates="constant"/>
+        <Param name="letterHeight" val="0.07" valType="code" updates="constant"/>
       </TextComponent>
       <KeyboardComponent name="key_resp_4">
         <Param name="correctAns" val="" valType="str" updates="constant"/>
@@ -1113,7 +1113,7 @@
       <CodeComponent name="code_7">
         <Param name="Begin Experiment" val="" valType="extendedCode" updates="constant"/>
         <Param name="name" val="code_7" valType="code" updates="None"/>
-        <Param name="Begin Routine" val="#***************************&#10;&#10;StopTrials.addData(&quot;StartTrialTimeStamp&quot;, core.getTime())&#10;&#10;currentStopTrial = stopTrialList.pop(0)&#10;currentGoStim = currentStopTrial['fileName']&#10;currentStopOrGo = currentStopTrial['stopOrGo']&#10;currentStimType = currentStopTrial['condition']&#10;currentStopStimValue = currentStopTrial['reward']&#10;&#10;#Separate SSD tracking algorithms for left and right responses&#10;if currentStopOrGo == 'stop':&#10;    if xPosGoStim == -200:&#10;        SSD = deepcopy(SSDLeft)&#10;    else:&#10;        SSD = deepcopy(SSDRight)&#10;elif currentStopOrGo == 'go':&#10;    SSD = -1&#10;&#10;StopTrials.addData(&quot;beginningSSD&quot;, SSD)&#10;StopTrials.addData(&quot;trialType&quot;, currentStopOrGo)&#10;StopTrials.addData(&quot;goStim&quot;, currentGoStim)&#10;StopTrials.addData(&quot;stimType&quot;, currentStimType)&#10;StopTrials.addData(&quot;stopStimValue&quot;, currentStopStimValue)&#10;SSDInput = SSD + .5&#10;&#10;#***************************" valType="extendedCode" updates="constant"/>
+        <Param name="Begin Routine" val="#***************************&#10;&#10;StopTrials.addData(&quot;StartTrialTimeStamp&quot;, core.getTime())&#10;&#10;currentStopTrial = stopTrialList.pop(0)&#10;currentGoStim = currentStopTrial['fileName']&#10;currentStopOrGo = currentStopTrial['stopOrGo']&#10;currentStimType = currentStopTrial['condition']&#10;currentStopStimValue = currentStopTrial['reward']&#10;&#10;#Separate SSD tracking algorithms for left and right responses&#10;if currentStopOrGo == 'stop':&#10;    stopSignal.setVolume(.2)&#10;    if xPosGoStim == -200:&#10;        SSD = deepcopy(SSDLeft)&#10;    else:&#10;        SSD = deepcopy(SSDRight)&#10;elif currentStopOrGo == 'go':&#10;    SSD = -1&#10;    stopSignal.setVolume(0)&#10;&#10;StopTrials.addData(&quot;beginningSSD&quot;, SSD)&#10;StopTrials.addData(&quot;trialType&quot;, currentStopOrGo)&#10;StopTrials.addData(&quot;goStim&quot;, currentGoStim)&#10;StopTrials.addData(&quot;stimType&quot;, currentStimType)&#10;StopTrials.addData(&quot;stopStimValue&quot;, currentStopStimValue)&#10;SSDInput = SSD + .5&#10;&#10;#***************************" valType="extendedCode" updates="constant"/>
         <Param name="End Routine" val="" valType="extendedCode" updates="constant"/>
         <Param name="End Experiment" val="" valType="extendedCode" updates="constant"/>
         <Param name="Each Frame" val="" valType="extendedCode" updates="constant"/>

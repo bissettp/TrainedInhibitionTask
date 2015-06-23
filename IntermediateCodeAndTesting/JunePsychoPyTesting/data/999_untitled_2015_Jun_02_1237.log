@@ -1,0 +1,48 @@
+0.3335 	WARNING 	Movie2 stim could not be imported and won't be available
+5.8193 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor instance at 0xf1c5df0>, name='window1', pos=[0, 0], screen=0, size=array([2560, 1440]), stereo=False, units=u'norm', useFBO=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.8193 	EXP 	window1: recordFrameIntervals = False
+5.9847 	EXP 	window1: recordFrameIntervals = True
+6.1683 	EXP 	window1: recordFrameIntervals = False
+7.7037 	EXP 	Set  sound=C
+7.7356 	EXP 	Set  sound=A
+7.7357 	EXP 	Sound  set volume 1.000
+7.7411 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x587bf0>: vertices = array([[-0.25,  0.25],
+       [ 0.25,  0.25],
+       [ 0.25, -0.25],
+       [-0.25, -0.25]])
+7.7441 	EXP 	Created polygon = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-2.0, fillColor=array([ 1.,  1.,  1.]), fillColorSpace='rgb', fillRGB=array([ 1.,  1.,  1.]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1, name='polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+7.7445 	EXP 	Created sequence: random, trialTypes=1, nReps=10, seed=None
+7.7450 	EXP 	New trial (rep=0, index=0): None
+7.7451 	EXP 	window1: recordFrameIntervals = False
+7.7691 	EXP 	window1: recordFrameIntervals = False
+8.2695 	EXP 	Sound  started
+8.2859 	EXP 	polygon: autoDraw = True
+8.3360 	EXP 	Sound  stopped
+9.2366 	EXP 	Sound  stopped
+9.2370 	EXP 	New trial (rep=1, index=0): None
+9.2370 	EXP 	window1: recordFrameIntervals = False
+9.2530 	EXP 	polygon: autoDraw = False
+9.2530 	EXP 	polygon: autoDraw = False
+9.2531 	EXP 	window1: recordFrameIntervals = False
+9.7538 	EXP 	Sound  started
+9.7703 	EXP 	polygon: autoDraw = True
+9.8370 	EXP 	Sound  stopped
+10.7381 	EXP 	Sound  stopped
+10.7385 	EXP 	New trial (rep=2, index=0): None
+10.7386 	EXP 	window1: recordFrameIntervals = False
+10.7546 	EXP 	polygon: autoDraw = False
+10.7546 	EXP 	polygon: autoDraw = False
+10.7546 	EXP 	window1: recordFrameIntervals = False
+11.2549 	EXP 	Sound  started
+11.2719 	EXP 	polygon: autoDraw = True
+11.3387 	EXP 	Sound  stopped
+12.2396 	EXP 	Sound  stopped
+12.2399 	EXP 	New trial (rep=3, index=0): None
+12.2400 	EXP 	window1: recordFrameIntervals = False
+12.2561 	EXP 	polygon: autoDraw = False
+12.2561 	EXP 	polygon: autoDraw = False
+12.2561 	EXP 	window1: recordFrameIntervals = False
+12.7566 	EXP 	Sound  started
+12.7730 	EXP 	polygon: autoDraw = True
+12.8397 	EXP 	Sound  stopped
+13.5576 	DATA 	Keypress: escape

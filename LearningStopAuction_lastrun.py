@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Thu Jun 18 09:14:25 2015
+This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Tue Jun 23 10:46:22 2015
 If you publish work using this script please cite the relevant PsychoPy publications
   Peirce, JW (2007) PsychoPy - Psychophysics software in Python. Journal of Neuroscience Methods, 162(1-2), 8-13.
   Peirce, JW (2009) Generating stimuli for neuroscience using PsychoPy. Frontiers in Neuroinformatics, 2:10. doi: 10.3389/neuro.11.010.2008
@@ -33,7 +33,7 @@ filename = _thisDir + os.sep + u'data' + os.sep + '%s_%s' %(expInfo['participant
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath=u'/Users/patrickbissett/OneDrive/Poldrack/TrainedInhibition/PsychoPy/LearningStopAuction.psyexp',
+    originPath='/Users/poldracklab/Documents/Bissett/trainedInhibition/LearningStopAuction.psyexp',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 #save a log file for detail verbose info
@@ -45,7 +45,7 @@ endExpNow = False  # flag for 'escape' or other condition => quit the exp
 # Start Code - component code to be run before the window creation
 
 # Setup the Window
-win = visual.Window(size=(2560, 1440), fullscr=True, screen=0, allowGUI=False, allowStencil=False,
+win = visual.Window(size=(1920, 1080), fullscr=True, screen=0, allowGUI=False, allowStencil=False,
     monitor='testMonitor', color='black', colorSpace='rgb',
     blendMode='avg', useFBO=True,
     )
@@ -222,7 +222,7 @@ endTrialClock = core.Clock()
 instrStopPracClock = core.Clock()
 instrStopText = visual.TextStim(win=win, ori=0, name='instrStopText',
     text='A shape stimulus will appear on the left or right side of the screen\n\nIf it appears on the left, press Z\n\nIf it appears on the right, press M\n\nIf you hear a tone, do not press anything on that trial\n\nResponding quickly to the location of the shape and withholding your response when you hear a tone are equally important. \n\nPress the 9 key when you are ready to proceed. ',    font='Arial',
-    pos=[0, 0], height=0.1, wrapWidth=None,
+    pos=[0, 0], height=0.07, wrapWidth=None,
     color='white', colorSpace='rgb', opacity=1,
     depth=0.0)
 
@@ -234,7 +234,7 @@ newPracStopStimClock = core.Clock()
 # Initialize components for Routine "StopTrial"
 StopTrialClock = core.Clock()
 stopSignal = sound.Sound('900', secs=-1)
-stopSignal.setVolume(.2)
+stopSignal.setVolume(None)
 fixStop = visual.TextStim(win=win, ori=0, name='fixStop',
     text='|',    font='Arial',
     pos=[0, 0], height=4, wrapWidth=None,
@@ -342,7 +342,7 @@ text = visual.TextStim(win=win, ori=0, name='text',
 instrStopPracClock = core.Clock()
 instrStopText = visual.TextStim(win=win, ori=0, name='instrStopText',
     text='A shape stimulus will appear on the left or right side of the screen\n\nIf it appears on the left, press Z\n\nIf it appears on the right, press M\n\nIf you hear a tone, do not press anything on that trial\n\nResponding quickly to the location of the shape and withholding your response when you hear a tone are equally important. \n\nPress the 9 key when you are ready to proceed. ',    font='Arial',
-    pos=[0, 0], height=0.1, wrapWidth=None,
+    pos=[0, 0], height=0.07, wrapWidth=None,
     color='white', colorSpace='rgb', opacity=1,
     depth=0.0)
 
@@ -358,7 +358,7 @@ newStopStimClock = core.Clock()
 # Initialize components for Routine "StopTrial"
 StopTrialClock = core.Clock()
 stopSignal = sound.Sound('900', secs=-1)
-stopSignal.setVolume(.2)
+stopSignal.setVolume(None)
 fixStop = visual.TextStim(win=win, ori=0, name='fixStop',
     text='|',    font='Arial',
     pos=[0, 0], height=4, wrapWidth=None,
@@ -395,9 +395,9 @@ text_5 = visual.TextStim(win=win, ori=0, name='text_5',
 # Initialize components for Routine "instrAuction"
 instrAuctionClock = core.Clock()
 text_7 = visual.TextStim(win=win, ori=0, name='text_7',
-    text='You will now read instructions on the final phase of the study\n\nPress the 9 key to continue',    font='Arial',
-    pos=[0, 0], height=0.1, wrapWidth=None,
-    color='white', colorSpace='rgb', opacity=1,
+    text=u'Please go get the Experimenter so that you can read the written instructions for final phase of the study. \n\nThe payoff from this final phase will be paid out at the end of the experiment. \n\nPress the 9 key after you have gotten the experimenter and read the instructions. ',    font=u'Arial',
+    pos=[0, 0], height=0.07, wrapWidth=None,
+    color=u'white', colorSpace='rgb', opacity=1,
     depth=0.0)
 
 # Initialize components for Routine "newAuctionStim"
@@ -641,7 +641,7 @@ routineTimer.reset()
 
 # set up handler to look after randomisation of conditions etc
 pracTrials = data.TrialHandler(nReps=1, method='fullRandom', 
-    extraInfo=expInfo, originPath=u'/Users/patrickbissett/OneDrive/Poldrack/TrainedInhibition/PsychoPy/LearningStopAuction.psyexp',
+    extraInfo=expInfo, originPath='/Users/poldracklab/Documents/Bissett/trainedInhibition/LearningStopAuction.psyexp',
     trialList=data.importConditions('TrialtypesLearningPrac.xlsx'),
     seed=None, name='pracTrials')
 thisExp.addLoop(pracTrials)  # add the loop to the experiment
@@ -715,7 +715,7 @@ for thisPracTrial in pracTrials:
     
     # set up handler to look after randomisation of conditions etc
     ReDoLoopPrac = data.TrialHandler(nReps=5, method='sequential', 
-        extraInfo=expInfo, originPath=u'/Users/patrickbissett/OneDrive/Poldrack/TrainedInhibition/PsychoPy/LearningStopAuction.psyexp',
+        extraInfo=expInfo, originPath='/Users/poldracklab/Documents/Bissett/trainedInhibition/LearningStopAuction.psyexp',
         trialList=[None],
         seed=None, name='ReDoLoopPrac')
     thisExp.addLoop(ReDoLoopPrac)  # add the loop to the experiment
@@ -903,8 +903,10 @@ for thisPracTrial in pracTrials:
             message = "You won $ %.2f" %computedReward
         elif resp.keys is None: 
             message ="Too Slow"
+            computedReward = 0 
         else:
             message="Wrong"
+            computedReward = 0
         
         #***************************
         feedback_2.setText(message)
@@ -1260,7 +1262,7 @@ routineTimer.reset()
 
 # set up handler to look after randomisation of conditions etc
 pracStopTrials = data.TrialHandler(nReps=5, method='fullRandom', 
-    extraInfo=expInfo, originPath=u'/Users/patrickbissett/OneDrive/Poldrack/TrainedInhibition/PsychoPy/LearningStopAuction.psyexp',
+    extraInfo=expInfo, originPath='/Users/poldracklab/Documents/Bissett/trainedInhibition/LearningStopAuction.psyexp',
     trialList=data.importConditions('trialtypeStop.xlsx'),
     seed=None, name='pracStopTrials')
 thisExp.addLoop(pracStopTrials)  # add the loop to the experiment
@@ -1293,9 +1295,10 @@ for thisPracStopTrial in pracStopTrials:
     
     if currentStopOrGo == 'stop':
         SSD = .25
+        stopSignal.setVolume(.2)
     elif currentStopOrGo == 'go': 
         SSD = -1 #This makes it so the auditory tone does not occur. There's probably a more elegant way to do this. Suggestions?
-    
+        stopSignal.setVolume(0)
     #
     pracStopTrials.addData("trialType", currentStopOrGo)
     pracStopTrials.addData("goStim", currentGoStim)
@@ -1668,11 +1671,10 @@ else:
 SSDFeedback = (SSDLeft+SSDRight)/2
 SSDFeedback = round(SSDFeedback, 2)
 
-stopMessage = " RT = " + str(goRTFeedback) + "\n Omission % = " + str(omissionRate) + "\n Commission % = " + str(commissionRate) + "\n\n\n\n " + str(probabilityOfStop) + "\n " + str(SSDFeedback)
+stopMessage = " RT = " + str(goRTFeedback) + "\n Omission % = " + str(omissionRate) + "\n Commission % = " + str(commissionRate) + "\n\n\n\n " + str(probabilityOfStop) + "\n " + str(SSDFeedback) + "\n\n (Press the 9 key to continue)"
 
 #***************************
-text_5.setText(stopMessage
-)
+text_5.setText(stopMessage)
 key_resp_3 = event.BuilderKeyResponse()  # create an object of type KeyResponse
 key_resp_3.status = NOT_STARTED
 # keep track of which components have finished
@@ -1709,7 +1711,7 @@ while continueRoutine:
         key_resp_3.clock.reset()  # now t=0
         event.clearEvents(eventType='keyboard')
     if key_resp_3.status == STARTED:
-        theseKeys = event.getKeys(keyList=['y', 'n', 'left', 'right', 'space'])
+        theseKeys = event.getKeys(keyList=['9'])
         
         # check for quit:
         if "escape" in theseKeys:
@@ -1839,7 +1841,7 @@ routineTimer.reset()
 
 # set up handler to look after randomisation of conditions etc
 Blocks = data.TrialHandler(nReps=4, method='sequential', 
-    extraInfo=expInfo, originPath=u'/Users/patrickbissett/OneDrive/Poldrack/TrainedInhibition/PsychoPy/LearningStopAuction.psyexp',
+    extraInfo=expInfo, originPath='/Users/poldracklab/Documents/Bissett/trainedInhibition/LearningStopAuction.psyexp',
     trialList=[None],
     seed=None, name='Blocks')
 thisExp.addLoop(Blocks)  # add the loop to the experiment
@@ -1858,7 +1860,7 @@ for thisBlock in Blocks:
     
     # set up handler to look after randomisation of conditions etc
     trials = data.TrialHandler(nReps=25.0, method='fullRandom', 
-        extraInfo=expInfo, originPath=u'/Users/patrickbissett/OneDrive/Poldrack/TrainedInhibition/PsychoPy/LearningStopAuction.psyexp',
+        extraInfo=expInfo, originPath='/Users/poldracklab/Documents/Bissett/trainedInhibition/LearningStopAuction.psyexp',
         trialList=data.importConditions('TrialtypesLearning.xlsx'),
         seed=None, name='trials')
     thisExp.addLoop(trials)  # add the loop to the experiment
@@ -1932,7 +1934,7 @@ for thisBlock in Blocks:
         
         # set up handler to look after randomisation of conditions etc
         ReDoLoopMain = data.TrialHandler(nReps=5, method='sequential', 
-            extraInfo=expInfo, originPath=u'/Users/patrickbissett/OneDrive/Poldrack/TrainedInhibition/PsychoPy/LearningStopAuction.psyexp',
+            extraInfo=expInfo, originPath='/Users/poldracklab/Documents/Bissett/trainedInhibition/LearningStopAuction.psyexp',
             trialList=[None],
             seed=None, name='ReDoLoopMain')
         thisExp.addLoop(ReDoLoopMain)  # add the loop to the experiment
@@ -2120,8 +2122,10 @@ for thisBlock in Blocks:
                 message = "You won $ %.2f" %computedReward
             elif resp.keys is None: 
                 message ="Too Slow"
+                computedReward = 0 
             else:
                 message="Wrong"
+                computedReward = 0
             
             #***************************
             feedback_2.setText(message)
@@ -2572,7 +2576,7 @@ routineTimer.reset()
 
 # set up handler to look after randomisation of conditions etc
 StopBlocks = data.TrialHandler(nReps=8, method='sequential', 
-    extraInfo=expInfo, originPath=u'/Users/patrickbissett/OneDrive/Poldrack/TrainedInhibition/PsychoPy/LearningStopAuction.psyexp',
+    extraInfo=expInfo, originPath='/Users/poldracklab/Documents/Bissett/trainedInhibition/LearningStopAuction.psyexp',
     trialList=[None],
     seed=None, name='StopBlocks')
 thisExp.addLoop(StopBlocks)  # add the loop to the experiment
@@ -2647,7 +2651,7 @@ for thisStopBlock in StopBlocks:
     
     # set up handler to look after randomisation of conditions etc
     StopTrials = data.TrialHandler(nReps=18, method='fullRandom', 
-        extraInfo=expInfo, originPath=u'/Users/patrickbissett/OneDrive/Poldrack/TrainedInhibition/PsychoPy/LearningStopAuction.psyexp',
+        extraInfo=expInfo, originPath='/Users/poldracklab/Documents/Bissett/trainedInhibition/LearningStopAuction.psyexp',
         trialList=data.importConditions('trialtypeStop.xlsx'),
         seed=None, name='StopTrials')
     thisExp.addLoop(StopTrials)  # add the loop to the experiment
@@ -2681,12 +2685,14 @@ for thisStopBlock in StopBlocks:
         
         #Separate SSD tracking algorithms for left and right responses
         if currentStopOrGo == 'stop':
+            stopSignal.setVolume(.2)
             if xPosGoStim == -200:
                 SSD = deepcopy(SSDLeft)
             else:
                 SSD = deepcopy(SSDRight)
         elif currentStopOrGo == 'go':
             SSD = -1
+            stopSignal.setVolume(0)
         
         StopTrials.addData("beginningSSD", SSD)
         StopTrials.addData("trialType", currentStopOrGo)
@@ -2963,7 +2969,7 @@ for thisStopBlock in StopBlocks:
                         SSDRight = deepcopy(SSDRight) + .05
                         SSD = SSDRight
             else:
-                if SSD > 0:
+                if SSD > .001:
                     if xPosGoStim == -200:
                         SSDLeft = deepcopy(SSDLeft) - .05
                         SSD = SSDLeft
@@ -3083,11 +3089,10 @@ for thisStopBlock in StopBlocks:
     SSDFeedback = (SSDLeft+SSDRight)/2
     SSDFeedback = round(SSDFeedback, 2)
     
-    stopMessage = " RT = " + str(goRTFeedback) + "\n Omission % = " + str(omissionRate) + "\n Commission % = " + str(commissionRate) + "\n\n\n\n " + str(probabilityOfStop) + "\n " + str(SSDFeedback)
+    stopMessage = " RT = " + str(goRTFeedback) + "\n Omission % = " + str(omissionRate) + "\n Commission % = " + str(commissionRate) + "\n\n\n\n " + str(probabilityOfStop) + "\n " + str(SSDFeedback) + "\n\n (Press the 9 key to continue)"
     
     #***************************
-    text_5.setText(stopMessage
-)
+    text_5.setText(stopMessage)
     key_resp_3 = event.BuilderKeyResponse()  # create an object of type KeyResponse
     key_resp_3.status = NOT_STARTED
     # keep track of which components have finished
@@ -3124,7 +3129,7 @@ for thisStopBlock in StopBlocks:
             key_resp_3.clock.reset()  # now t=0
             event.clearEvents(eventType='keyboard')
         if key_resp_3.status == STARTED:
-            theseKeys = event.getKeys(keyList=['y', 'n', 'left', 'right', 'space'])
+            theseKeys = event.getKeys(keyList=['9'])
             
             # check for quit:
             if "escape" in theseKeys:
@@ -3254,7 +3259,7 @@ routineTimer.reset()
 
 # set up handler to look after randomisation of conditions etc
 auctionBlocks = data.TrialHandler(nReps=4, method='random', 
-    extraInfo=expInfo, originPath=u'/Users/patrickbissett/OneDrive/Poldrack/TrainedInhibition/PsychoPy/LearningStopAuction.psyexp',
+    extraInfo=expInfo, originPath='/Users/poldracklab/Documents/Bissett/trainedInhibition/LearningStopAuction.psyexp',
     trialList=[None],
     seed=None, name='auctionBlocks')
 thisExp.addLoop(auctionBlocks)  # add the loop to the experiment
@@ -3273,7 +3278,7 @@ for thisAuctionBlock in auctionBlocks:
     
     # set up handler to look after randomisation of conditions etc
     auctionTrials = data.TrialHandler(nReps=20, method='sequential', 
-        extraInfo=expInfo, originPath=u'/Users/patrickbissett/OneDrive/Poldrack/TrainedInhibition/PsychoPy/LearningStopAuction.psyexp',
+        extraInfo=expInfo, originPath='/Users/poldracklab/Documents/Bissett/trainedInhibition/LearningStopAuction.psyexp',
         trialList=[None],
         seed=None, name='auctionTrials')
     thisExp.addLoop(auctionTrials)  # add the loop to the experiment
@@ -3573,9 +3578,10 @@ for thisAuctionBlock in auctionBlocks:
         if auctionResponse.keys != None:  # we had a response
             auctionTrials.addData('auctionResponse.rt', auctionResponse.rt)
         endTime = trialClock.getTime()
-        ITIDur = endTime - startTime
+        auctionStimDuration = endTime - startTime
+        ITIDur = 6 - auctionStimDuration
         
-        auctionTrials.addData("auctionStimDuration", ITIDur)
+        auctionTrials.addData("auctionStimDuration", auctionStimDuration)
         
         
         
@@ -3584,7 +3590,20 @@ for thisAuctionBlock in auctionBlocks:
         auctionITIClock.reset()  # clock 
         frameN = -1
         # update component parameters for each repeat
-        
+        if auctionResponse.keys == 'r':
+            chosenAuctionAmount = currentAuctionAmount[0]
+        elif auctionResponse.keys == 't':
+            chosenAuctionAmount = currentAuctionAmount[1]
+        elif auctionResponse.keys == 'y':
+            chosenAuctionAmount = currentAuctionAmount[2]
+        elif auctionResponse.keys == 'u':
+            chosenAuctionAmount = currentAuctionAmount[3]
+        elif auctionResponse.keys == 'i':
+            chosenAuctionAmount = currentAuctionAmount[4]
+        elif auctionResponse.keys == 'o':
+            chosenAuctionAmount = currentAuctionAmount[5]
+        else: 
+            chosenAuctionAmount = 0
         # keep track of which components have finished
         auctionITIComponents = []
         auctionITIComponents.append(text_3)
@@ -3636,6 +3655,7 @@ for thisAuctionBlock in auctionBlocks:
         auctionTrials.addData("auctionAmounts", currentAuctionAmount)
         auctionTrials.addData("auctionStimValue", currentAuctionStimValue)
         auctionTrials.addData("auctionCondition", currentAuctionCondition)
+        auctionTrials.addData("chosenAuctionAmount", chosenAuctionAmount)
         # the Routine "auctionITI" was not non-slip safe, so reset the non-slip timer
         routineTimer.reset()
         thisExp.nextEntry()

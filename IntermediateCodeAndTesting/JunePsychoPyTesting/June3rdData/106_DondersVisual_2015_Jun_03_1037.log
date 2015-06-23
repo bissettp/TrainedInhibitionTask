@@ -1,0 +1,1202 @@
+2.0709 	WARNING 	Movie2 stim could not be imported and won't be available
+78.5049 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor instance at 0xcac4c88>, name='window1', pos=[0, 0], screen=0, size=array([1920, 1080]), stereo=False, units=u'norm', useFBO=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+78.5049 	EXP 	window1: recordFrameIntervals = False
+78.6714 	EXP 	window1: recordFrameIntervals = True
+78.8549 	EXP 	window1: recordFrameIntervals = False
+79.0763 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+79.1052 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=2, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'X', units=u'norm', win=Window(...), wrapWidth=1)
+79.1101 	EXP 	Created text_3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_3', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'ITI', units=u'norm', win=Window(...), wrapWidth=1)
+79.1115 	EXP 	Created sequence: random, trialTypes=1, nReps=100, seed=None
+79.1135 	EXP 	New trial (rep=0, index=0): None
+79.1142 	EXP 	window1: recordFrameIntervals = False
+79.1240 	EXP 	text: autoDraw = True
+79.1242 	EXP 	window1: recordFrameIntervals = False
+79.4631 	DATA 	Keypress: space
+79.6557 	EXP 	text: autoDraw = False
+79.6557 	EXP 	text_2: autoDraw = False
+79.6557 	EXP 	text_3: autoDraw = True
+80.6410 	EXP 	New trial (rep=1, index=0): None
+80.6411 	EXP 	window1: recordFrameIntervals = False
+80.6567 	EXP 	text_3: autoDraw = False
+80.6567 	EXP 	text_3: autoDraw = False
+80.6567 	EXP 	text: autoDraw = True
+80.6570 	EXP 	window1: recordFrameIntervals = False
+81.1738 	EXP 	text_2: autoDraw = True
+81.2080 	DATA 	Keypress: space
+81.2240 	EXP 	text: autoDraw = False
+81.2240 	EXP 	text_2: autoDraw = False
+81.2240 	EXP 	text_3: autoDraw = True
+82.2096 	EXP 	New trial (rep=2, index=0): None
+82.2098 	EXP 	window1: recordFrameIntervals = False
+82.2250 	EXP 	text_3: autoDraw = False
+82.2250 	EXP 	text_3: autoDraw = False
+82.2250 	EXP 	text: autoDraw = True
+82.2252 	EXP 	window1: recordFrameIntervals = False
+83.0926 	EXP 	text_2: autoDraw = True
+83.2761 	EXP 	text_2: autoDraw = False
+83.3767 	DATA 	Keypress: space
+83.3933 	EXP 	text: autoDraw = False
+83.3933 	EXP 	text_2: autoDraw = False
+83.3933 	EXP 	text_3: autoDraw = True
+84.3787 	EXP 	New trial (rep=3, index=0): None
+84.3789 	EXP 	window1: recordFrameIntervals = False
+84.3944 	EXP 	text_3: autoDraw = False
+84.3944 	EXP 	text_3: autoDraw = False
+84.3944 	EXP 	text: autoDraw = True
+84.3946 	EXP 	window1: recordFrameIntervals = False
+84.9450 	EXP 	text_2: autoDraw = True
+85.1285 	EXP 	text_2: autoDraw = False
+85.2127 	DATA 	Keypress: space
+85.2287 	EXP 	text: autoDraw = False
+85.2287 	EXP 	text_2: autoDraw = False
+85.2287 	EXP 	text_3: autoDraw = True
+86.2135 	EXP 	New trial (rep=4, index=0): None
+86.2136 	EXP 	window1: recordFrameIntervals = False
+86.2294 	EXP 	text_3: autoDraw = False
+86.2294 	EXP 	text_3: autoDraw = False
+86.2294 	EXP 	text: autoDraw = True
+86.2296 	EXP 	window1: recordFrameIntervals = False
+86.8803 	EXP 	text_2: autoDraw = True
+87.0806 	EXP 	text_2: autoDraw = False
+87.1641 	DATA 	Keypress: space
+87.1804 	EXP 	text: autoDraw = False
+87.1804 	EXP 	text_2: autoDraw = False
+87.1804 	EXP 	text_3: autoDraw = True
+88.1660 	EXP 	New trial (rep=5, index=0): None
+88.1661 	EXP 	window1: recordFrameIntervals = False
+88.1818 	EXP 	text_3: autoDraw = False
+88.1818 	EXP 	text_3: autoDraw = False
+88.1818 	EXP 	text: autoDraw = True
+88.1821 	EXP 	window1: recordFrameIntervals = False
+88.7154 	EXP 	text_2: autoDraw = True
+88.9156 	EXP 	text_2: autoDraw = False
+88.9997 	DATA 	Keypress: space
+89.0162 	EXP 	text: autoDraw = False
+89.0162 	EXP 	text_2: autoDraw = False
+89.0162 	EXP 	text_3: autoDraw = True
+90.0014 	EXP 	New trial (rep=6, index=0): None
+90.0015 	EXP 	window1: recordFrameIntervals = False
+90.0172 	EXP 	text_3: autoDraw = False
+90.0172 	EXP 	text_3: autoDraw = False
+90.0172 	EXP 	text: autoDraw = True
+90.0174 	EXP 	window1: recordFrameIntervals = False
+91.0014 	EXP 	text_2: autoDraw = True
+91.2020 	EXP 	text_2: autoDraw = False
+91.2687 	DATA 	Keypress: space
+91.2850 	EXP 	text: autoDraw = False
+91.2850 	EXP 	text_2: autoDraw = False
+91.2850 	EXP 	text_3: autoDraw = True
+92.2709 	EXP 	New trial (rep=7, index=0): None
+92.2711 	EXP 	window1: recordFrameIntervals = False
+92.2866 	EXP 	text_3: autoDraw = False
+92.2866 	EXP 	text_3: autoDraw = False
+92.2866 	EXP 	text: autoDraw = True
+92.2868 	EXP 	window1: recordFrameIntervals = False
+93.1043 	EXP 	text_2: autoDraw = True
+93.2875 	EXP 	text_2: autoDraw = False
+93.4043 	DATA 	Keypress: space
+93.4207 	EXP 	text: autoDraw = False
+93.4207 	EXP 	text_2: autoDraw = False
+93.4207 	EXP 	text_3: autoDraw = True
+94.4064 	EXP 	New trial (rep=8, index=0): None
+94.4066 	EXP 	window1: recordFrameIntervals = False
+94.4218 	EXP 	text_3: autoDraw = False
+94.4218 	EXP 	text_3: autoDraw = False
+94.4218 	EXP 	text: autoDraw = True
+94.4220 	EXP 	window1: recordFrameIntervals = False
+95.1563 	EXP 	text_2: autoDraw = True
+95.3563 	EXP 	text_2: autoDraw = False
+95.4400 	DATA 	Keypress: space
+95.4564 	EXP 	text: autoDraw = False
+95.4564 	EXP 	text_2: autoDraw = False
+95.4564 	EXP 	text_3: autoDraw = True
+96.4420 	EXP 	New trial (rep=9, index=0): None
+96.4421 	EXP 	window1: recordFrameIntervals = False
+96.4575 	EXP 	text_3: autoDraw = False
+96.4575 	EXP 	text_3: autoDraw = False
+96.4575 	EXP 	text: autoDraw = True
+96.4577 	EXP 	window1: recordFrameIntervals = False
+97.1420 	EXP 	text_2: autoDraw = True
+97.3420 	EXP 	text_2: autoDraw = False
+97.4426 	DATA 	Keypress: space
+97.4587 	EXP 	text: autoDraw = False
+97.4587 	EXP 	text_2: autoDraw = False
+97.4587 	EXP 	text_3: autoDraw = True
+98.4443 	EXP 	New trial (rep=10, index=0): None
+98.4445 	EXP 	window1: recordFrameIntervals = False
+98.4600 	EXP 	text_3: autoDraw = False
+98.4600 	EXP 	text_3: autoDraw = False
+98.4600 	EXP 	text: autoDraw = True
+98.4602 	EXP 	window1: recordFrameIntervals = False
+99.0772 	EXP 	text_2: autoDraw = True
+99.2615 	EXP 	text_2: autoDraw = False
+99.3447 	DATA 	Keypress: space
+99.3609 	EXP 	text: autoDraw = False
+99.3609 	EXP 	text_2: autoDraw = False
+99.3609 	EXP 	text_3: autoDraw = True
+100.3463 	EXP 	New trial (rep=11, index=0): None
+100.3464 	EXP 	window1: recordFrameIntervals = False
+100.3620 	EXP 	text_3: autoDraw = False
+100.3620 	EXP 	text_3: autoDraw = False
+100.3620 	EXP 	text: autoDraw = True
+100.3622 	EXP 	window1: recordFrameIntervals = False
+101.1962 	EXP 	text_2: autoDraw = True
+101.3798 	EXP 	text_2: autoDraw = False
+101.4468 	DATA 	Keypress: space
+101.4631 	EXP 	text: autoDraw = False
+101.4631 	EXP 	text_2: autoDraw = False
+101.4631 	EXP 	text_3: autoDraw = True
+102.4486 	EXP 	New trial (rep=12, index=0): None
+102.4488 	EXP 	window1: recordFrameIntervals = False
+102.4643 	EXP 	text_3: autoDraw = False
+102.4643 	EXP 	text_3: autoDraw = False
+102.4643 	EXP 	text: autoDraw = True
+102.4645 	EXP 	window1: recordFrameIntervals = False
+103.0814 	EXP 	text_2: autoDraw = True
+103.2653 	EXP 	text_2: autoDraw = False
+103.3488 	DATA 	Keypress: space
+103.3652 	EXP 	text: autoDraw = False
+103.3652 	EXP 	text_2: autoDraw = False
+103.3652 	EXP 	text_3: autoDraw = True
+104.3510 	EXP 	New trial (rep=13, index=0): None
+104.3511 	EXP 	window1: recordFrameIntervals = False
+104.3665 	EXP 	text_3: autoDraw = False
+104.3665 	EXP 	text_3: autoDraw = False
+104.3665 	EXP 	text: autoDraw = True
+104.3667 	EXP 	window1: recordFrameIntervals = False
+105.1675 	EXP 	text_2: autoDraw = True
+105.3507 	EXP 	text_2: autoDraw = False
+105.4512 	DATA 	Keypress: space
+105.4675 	EXP 	text: autoDraw = False
+105.4675 	EXP 	text_2: autoDraw = False
+105.4675 	EXP 	text_3: autoDraw = True
+106.4529 	EXP 	New trial (rep=14, index=0): None
+106.4531 	EXP 	window1: recordFrameIntervals = False
+106.4687 	EXP 	text_3: autoDraw = False
+106.4687 	EXP 	text_3: autoDraw = False
+106.4687 	EXP 	text: autoDraw = True
+106.4689 	EXP 	window1: recordFrameIntervals = False
+107.4699 	EXP 	text_2: autoDraw = True
+107.6537 	EXP 	text_2: autoDraw = False
+107.7374 	DATA 	Keypress: space
+107.7536 	EXP 	text: autoDraw = False
+107.7536 	EXP 	text_2: autoDraw = False
+107.7536 	EXP 	text_3: autoDraw = True
+108.7391 	EXP 	New trial (rep=15, index=0): None
+108.7393 	EXP 	window1: recordFrameIntervals = False
+108.7547 	EXP 	text_3: autoDraw = False
+108.7547 	EXP 	text_3: autoDraw = False
+108.7547 	EXP 	text: autoDraw = True
+108.7550 	EXP 	window1: recordFrameIntervals = False
+109.3718 	EXP 	text_2: autoDraw = True
+109.5553 	EXP 	text_2: autoDraw = False
+109.7063 	DATA 	Keypress: space
+109.7224 	EXP 	text: autoDraw = False
+109.7224 	EXP 	text_2: autoDraw = False
+109.7224 	EXP 	text_3: autoDraw = True
+110.7079 	EXP 	New trial (rep=16, index=0): None
+110.7080 	EXP 	window1: recordFrameIntervals = False
+110.7236 	EXP 	text_3: autoDraw = False
+110.7236 	EXP 	text_3: autoDraw = False
+110.7236 	EXP 	text: autoDraw = True
+110.7238 	EXP 	window1: recordFrameIntervals = False
+111.6244 	EXP 	text_2: autoDraw = True
+111.8249 	EXP 	text_2: autoDraw = False
+111.8751 	DATA 	Keypress: space
+111.8915 	EXP 	text: autoDraw = False
+111.8915 	EXP 	text_2: autoDraw = False
+111.8915 	EXP 	text_3: autoDraw = True
+112.8770 	EXP 	New trial (rep=17, index=0): None
+112.8772 	EXP 	window1: recordFrameIntervals = False
+112.8927 	EXP 	text_3: autoDraw = False
+112.8927 	EXP 	text_3: autoDraw = False
+112.8927 	EXP 	text: autoDraw = True
+112.8929 	EXP 	window1: recordFrameIntervals = False
+113.4936 	EXP 	text_2: autoDraw = True
+113.6766 	EXP 	text_2: autoDraw = False
+113.7938 	DATA 	Keypress: space
+113.8102 	EXP 	text: autoDraw = False
+113.8102 	EXP 	text_2: autoDraw = False
+113.8102 	EXP 	text_3: autoDraw = True
+114.7955 	EXP 	New trial (rep=18, index=0): None
+114.7957 	EXP 	window1: recordFrameIntervals = False
+114.8113 	EXP 	text_3: autoDraw = False
+114.8113 	EXP 	text_3: autoDraw = False
+114.8113 	EXP 	text: autoDraw = True
+114.8115 	EXP 	window1: recordFrameIntervals = False
+115.7459 	EXP 	text_2: autoDraw = True
+115.9294 	EXP 	text_2: autoDraw = False
+116.0301 	DATA 	Keypress: space
+116.0462 	EXP 	text: autoDraw = False
+116.0462 	EXP 	text_2: autoDraw = False
+116.0462 	EXP 	text_3: autoDraw = True
+117.0314 	EXP 	New trial (rep=19, index=0): None
+117.0316 	EXP 	window1: recordFrameIntervals = False
+117.0471 	EXP 	text_3: autoDraw = False
+117.0471 	EXP 	text_3: autoDraw = False
+117.0471 	EXP 	text: autoDraw = True
+117.0473 	EXP 	window1: recordFrameIntervals = False
+117.8980 	EXP 	text_2: autoDraw = True
+118.0985 	EXP 	text_2: autoDraw = False
+118.1995 	DATA 	Keypress: space
+118.2155 	EXP 	text: autoDraw = False
+118.2155 	EXP 	text_2: autoDraw = False
+118.2155 	EXP 	text_3: autoDraw = True
+119.2006 	EXP 	New trial (rep=20, index=0): None
+119.2008 	EXP 	window1: recordFrameIntervals = False
+119.2163 	EXP 	text_3: autoDraw = False
+119.2163 	EXP 	text_3: autoDraw = False
+119.2163 	EXP 	text: autoDraw = True
+119.2165 	EXP 	window1: recordFrameIntervals = False
+119.7839 	EXP 	text_2: autoDraw = True
+119.9674 	EXP 	text_2: autoDraw = False
+120.1347 	DATA 	Keypress: space
+120.1675 	EXP 	text: autoDraw = False
+120.1675 	EXP 	text_2: autoDraw = False
+120.1675 	EXP 	text_3: autoDraw = True
+121.1366 	EXP 	New trial (rep=21, index=0): None
+121.1368 	EXP 	window1: recordFrameIntervals = False
+121.1517 	EXP 	text_3: autoDraw = False
+121.1517 	EXP 	text_3: autoDraw = False
+121.1517 	EXP 	text: autoDraw = True
+121.1519 	EXP 	window1: recordFrameIntervals = False
+121.9025 	EXP 	text_2: autoDraw = True
+122.0863 	EXP 	text_2: autoDraw = False
+122.2537 	DATA 	Keypress: space
+122.2695 	EXP 	text: autoDraw = False
+122.2695 	EXP 	text_2: autoDraw = False
+122.2695 	EXP 	text_3: autoDraw = True
+123.2551 	EXP 	New trial (rep=22, index=0): None
+123.2553 	EXP 	window1: recordFrameIntervals = False
+123.2708 	EXP 	text_3: autoDraw = False
+123.2708 	EXP 	text_3: autoDraw = False
+123.2708 	EXP 	text: autoDraw = True
+123.2711 	EXP 	window1: recordFrameIntervals = False
+123.8045 	EXP 	text_2: autoDraw = True
+123.9886 	EXP 	text_2: autoDraw = False
+124.0718 	DATA 	Keypress: space
+124.0887 	EXP 	text: autoDraw = False
+124.0887 	EXP 	text_2: autoDraw = False
+124.0887 	EXP 	text_3: autoDraw = True
+125.0735 	EXP 	New trial (rep=23, index=0): None
+125.0737 	EXP 	window1: recordFrameIntervals = False
+125.0893 	EXP 	text_3: autoDraw = False
+125.0893 	EXP 	text_3: autoDraw = False
+125.0893 	EXP 	text: autoDraw = True
+125.0895 	EXP 	window1: recordFrameIntervals = False
+125.8239 	EXP 	text_2: autoDraw = True
+126.0075 	EXP 	text_2: autoDraw = False
+126.1077 	DATA 	Keypress: space
+126.1240 	EXP 	text: autoDraw = False
+126.1240 	EXP 	text_2: autoDraw = False
+126.1240 	EXP 	text_3: autoDraw = True
+127.1093 	EXP 	New trial (rep=24, index=0): None
+127.1094 	EXP 	window1: recordFrameIntervals = False
+127.1251 	EXP 	text_3: autoDraw = False
+127.1251 	EXP 	text_3: autoDraw = False
+127.1251 	EXP 	text: autoDraw = True
+127.1253 	EXP 	window1: recordFrameIntervals = False
+127.8763 	EXP 	text_2: autoDraw = True
+128.0594 	EXP 	text_2: autoDraw = False
+128.1431 	DATA 	Keypress: space
+128.1595 	EXP 	text: autoDraw = False
+128.1595 	EXP 	text_2: autoDraw = False
+128.1595 	EXP 	text_3: autoDraw = True
+129.1451 	EXP 	New trial (rep=25, index=0): None
+129.1453 	EXP 	window1: recordFrameIntervals = False
+129.1608 	EXP 	text_3: autoDraw = False
+129.1608 	EXP 	text_3: autoDraw = False
+129.1608 	EXP 	text: autoDraw = True
+129.1610 	EXP 	window1: recordFrameIntervals = False
+129.9782 	EXP 	text_2: autoDraw = True
+130.1621 	EXP 	text_2: autoDraw = False
+130.2293 	DATA 	Keypress: space
+130.2453 	EXP 	text: autoDraw = False
+130.2453 	EXP 	text_2: autoDraw = False
+130.2453 	EXP 	text_3: autoDraw = True
+131.2308 	EXP 	New trial (rep=26, index=0): None
+131.2309 	EXP 	window1: recordFrameIntervals = False
+131.2465 	EXP 	text_3: autoDraw = False
+131.2465 	EXP 	text_3: autoDraw = False
+131.2465 	EXP 	text: autoDraw = True
+131.2467 	EXP 	window1: recordFrameIntervals = False
+131.8473 	EXP 	text_2: autoDraw = True
+132.0306 	EXP 	text_2: autoDraw = False
+132.1310 	DATA 	Keypress: space
+132.1473 	EXP 	text: autoDraw = False
+132.1473 	EXP 	text_2: autoDraw = False
+132.1473 	EXP 	text_3: autoDraw = True
+133.1330 	EXP 	New trial (rep=27, index=0): None
+133.1331 	EXP 	window1: recordFrameIntervals = False
+133.1486 	EXP 	text_3: autoDraw = False
+133.1486 	EXP 	text_3: autoDraw = False
+133.1486 	EXP 	text: autoDraw = True
+133.1488 	EXP 	window1: recordFrameIntervals = False
+134.0165 	EXP 	text_2: autoDraw = True
+134.1998 	EXP 	text_2: autoDraw = False
+134.2834 	DATA 	Keypress: space
+134.2996 	EXP 	text: autoDraw = False
+134.2996 	EXP 	text_2: autoDraw = False
+134.2996 	EXP 	text_3: autoDraw = True
+135.2853 	EXP 	New trial (rep=28, index=0): None
+135.2855 	EXP 	window1: recordFrameIntervals = False
+135.3009 	EXP 	text_3: autoDraw = False
+135.3009 	EXP 	text_3: autoDraw = False
+135.3009 	EXP 	text: autoDraw = True
+135.3011 	EXP 	window1: recordFrameIntervals = False
+136.1188 	EXP 	text_2: autoDraw = True
+136.3018 	EXP 	text_2: autoDraw = False
+136.3858 	DATA 	Keypress: space
+136.4020 	EXP 	text: autoDraw = False
+136.4020 	EXP 	text_2: autoDraw = False
+136.4020 	EXP 	text_3: autoDraw = True
+137.3876 	EXP 	New trial (rep=29, index=0): None
+137.3878 	EXP 	window1: recordFrameIntervals = False
+137.4032 	EXP 	text_3: autoDraw = False
+137.4032 	EXP 	text_3: autoDraw = False
+137.4032 	EXP 	text: autoDraw = True
+137.4034 	EXP 	window1: recordFrameIntervals = False
+138.1208 	EXP 	text_2: autoDraw = True
+138.3047 	EXP 	text_2: autoDraw = False
+138.4046 	DATA 	Keypress: space
+138.4209 	EXP 	text: autoDraw = False
+138.4209 	EXP 	text_2: autoDraw = False
+138.4209 	EXP 	text_3: autoDraw = True
+139.4065 	EXP 	New trial (rep=30, index=0): None
+139.4066 	EXP 	window1: recordFrameIntervals = False
+139.4222 	EXP 	text_3: autoDraw = False
+139.4222 	EXP 	text_3: autoDraw = False
+139.4222 	EXP 	text: autoDraw = True
+139.4225 	EXP 	window1: recordFrameIntervals = False
+140.3067 	EXP 	text_2: autoDraw = True
+140.5068 	EXP 	text_2: autoDraw = False
+140.5239 	DATA 	Keypress: space
+140.5400 	EXP 	text: autoDraw = False
+140.5400 	EXP 	text_2: autoDraw = False
+140.5400 	EXP 	text_3: autoDraw = True
+141.5253 	EXP 	New trial (rep=31, index=0): None
+141.5254 	EXP 	window1: recordFrameIntervals = False
+141.5412 	EXP 	text_3: autoDraw = False
+141.5412 	EXP 	text_3: autoDraw = False
+141.5412 	EXP 	text: autoDraw = True
+141.5415 	EXP 	window1: recordFrameIntervals = False
+142.1090 	EXP 	text_2: autoDraw = True
+142.2920 	EXP 	text_2: autoDraw = False
+142.4095 	DATA 	Keypress: space
+142.4256 	EXP 	text: autoDraw = False
+142.4256 	EXP 	text_2: autoDraw = False
+142.4256 	EXP 	text_3: autoDraw = True
+143.4108 	EXP 	New trial (rep=32, index=0): None
+143.4109 	EXP 	window1: recordFrameIntervals = False
+143.4266 	EXP 	text_3: autoDraw = False
+143.4266 	EXP 	text_3: autoDraw = False
+143.4266 	EXP 	text: autoDraw = True
+143.4268 	EXP 	window1: recordFrameIntervals = False
+144.3615 	EXP 	text_2: autoDraw = True
+144.5448 	EXP 	text_2: autoDraw = False
+144.6286 	DATA 	Keypress: space
+144.6446 	EXP 	text: autoDraw = False
+144.6446 	EXP 	text_2: autoDraw = False
+144.6446 	EXP 	text_3: autoDraw = True
+145.6300 	EXP 	New trial (rep=33, index=0): None
+145.6302 	EXP 	window1: recordFrameIntervals = False
+145.6464 	EXP 	text_3: autoDraw = False
+145.6464 	EXP 	text_3: autoDraw = False
+145.6464 	EXP 	text: autoDraw = True
+145.6467 	EXP 	window1: recordFrameIntervals = False
+146.4132 	EXP 	text_2: autoDraw = True
+146.5967 	EXP 	text_2: autoDraw = False
+146.7640 	DATA 	Keypress: space
+146.7804 	EXP 	text: autoDraw = False
+146.7804 	EXP 	text_2: autoDraw = False
+146.7804 	EXP 	text_3: autoDraw = True
+147.7659 	EXP 	New trial (rep=34, index=0): None
+147.7661 	EXP 	window1: recordFrameIntervals = False
+147.7815 	EXP 	text_3: autoDraw = False
+147.7815 	EXP 	text_3: autoDraw = False
+147.7815 	EXP 	text: autoDraw = True
+147.7817 	EXP 	window1: recordFrameIntervals = False
+148.5495 	EXP 	text_2: autoDraw = True
+148.7326 	EXP 	text_2: autoDraw = False
+148.8339 	DATA 	Keypress: space
+148.8659 	EXP 	text: autoDraw = False
+148.8659 	EXP 	text_2: autoDraw = False
+148.8659 	EXP 	text_3: autoDraw = True
+149.8515 	EXP 	New trial (rep=35, index=0): None
+149.8517 	EXP 	window1: recordFrameIntervals = False
+149.8672 	EXP 	text_3: autoDraw = False
+149.8672 	EXP 	text_3: autoDraw = False
+149.8672 	EXP 	text: autoDraw = True
+149.8675 	EXP 	window1: recordFrameIntervals = False
+150.6345 	EXP 	text_2: autoDraw = True
+150.8184 	EXP 	text_2: autoDraw = False
+150.9854 	DATA 	Keypress: space
+151.0017 	EXP 	text: autoDraw = False
+151.0017 	EXP 	text_2: autoDraw = False
+151.0017 	EXP 	text_3: autoDraw = True
+151.9872 	EXP 	New trial (rep=36, index=0): None
+151.9874 	EXP 	window1: recordFrameIntervals = False
+152.0030 	EXP 	text_3: autoDraw = False
+152.0030 	EXP 	text_3: autoDraw = False
+152.0030 	EXP 	text: autoDraw = True
+152.0032 	EXP 	window1: recordFrameIntervals = False
+152.5201 	EXP 	text_2: autoDraw = True
+152.7036 	EXP 	text_2: autoDraw = False
+152.8041 	DATA 	Keypress: space
+152.8204 	EXP 	text: autoDraw = False
+152.8204 	EXP 	text_2: autoDraw = False
+152.8204 	EXP 	text_3: autoDraw = True
+153.8059 	EXP 	New trial (rep=37, index=0): None
+153.8060 	EXP 	window1: recordFrameIntervals = False
+153.8216 	EXP 	text_3: autoDraw = False
+153.8216 	EXP 	text_3: autoDraw = False
+153.8216 	EXP 	text: autoDraw = True
+153.8219 	EXP 	window1: recordFrameIntervals = False
+154.3892 	EXP 	text_2: autoDraw = True
+154.5725 	EXP 	text_2: autoDraw = False
+154.6561 	DATA 	Keypress: space
+154.6724 	EXP 	text: autoDraw = False
+154.6724 	EXP 	text_2: autoDraw = False
+154.6724 	EXP 	text_3: autoDraw = True
+155.6579 	EXP 	New trial (rep=38, index=0): None
+155.6581 	EXP 	window1: recordFrameIntervals = False
+155.6738 	EXP 	text_3: autoDraw = False
+155.6738 	EXP 	text_3: autoDraw = False
+155.6738 	EXP 	text: autoDraw = True
+155.6741 	EXP 	window1: recordFrameIntervals = False
+156.2580 	EXP 	text_2: autoDraw = True
+156.4579 	EXP 	text_2: autoDraw = False
+156.5248 	DATA 	Keypress: space
+156.5411 	EXP 	text: autoDraw = False
+156.5411 	EXP 	text_2: autoDraw = False
+156.5411 	EXP 	text_3: autoDraw = True
+157.5267 	EXP 	New trial (rep=39, index=0): None
+157.5269 	EXP 	window1: recordFrameIntervals = False
+157.5425 	EXP 	text_3: autoDraw = False
+157.5425 	EXP 	text_3: autoDraw = False
+157.5425 	EXP 	text: autoDraw = True
+157.5427 	EXP 	window1: recordFrameIntervals = False
+158.2934 	EXP 	text_2: autoDraw = True
+158.4767 	EXP 	text_2: autoDraw = False
+158.5459 	DATA 	Keypress: space
+158.5605 	EXP 	text: autoDraw = False
+158.5605 	EXP 	text_2: autoDraw = False
+158.5605 	EXP 	text_3: autoDraw = True
+159.5457 	EXP 	New trial (rep=40, index=0): None
+159.5458 	EXP 	window1: recordFrameIntervals = False
+159.5614 	EXP 	text_3: autoDraw = False
+159.5614 	EXP 	text_3: autoDraw = False
+159.5614 	EXP 	text: autoDraw = True
+159.5616 	EXP 	window1: recordFrameIntervals = False
+160.2954 	EXP 	text_2: autoDraw = True
+160.4955 	EXP 	text_2: autoDraw = False
+160.5625 	DATA 	Keypress: space
+160.5795 	EXP 	text: autoDraw = False
+160.5795 	EXP 	text_2: autoDraw = False
+160.5795 	EXP 	text_3: autoDraw = True
+161.5645 	EXP 	New trial (rep=41, index=0): None
+161.5647 	EXP 	window1: recordFrameIntervals = False
+161.5804 	EXP 	text_3: autoDraw = False
+161.5804 	EXP 	text_3: autoDraw = False
+161.5804 	EXP 	text: autoDraw = True
+161.5807 	EXP 	window1: recordFrameIntervals = False
+162.4644 	EXP 	text_2: autoDraw = True
+162.6481 	EXP 	text_2: autoDraw = False
+162.7149 	DATA 	Keypress: space
+162.7317 	EXP 	text: autoDraw = False
+162.7317 	EXP 	text_2: autoDraw = False
+162.7317 	EXP 	text_3: autoDraw = True
+163.7169 	EXP 	New trial (rep=42, index=0): None
+163.7171 	EXP 	window1: recordFrameIntervals = False
+163.7326 	EXP 	text_3: autoDraw = False
+163.7326 	EXP 	text_3: autoDraw = False
+163.7326 	EXP 	text: autoDraw = True
+163.7329 	EXP 	window1: recordFrameIntervals = False
+164.3999 	EXP 	text_2: autoDraw = True
+164.5839 	EXP 	text_2: autoDraw = False
+164.6339 	DATA 	Keypress: space
+164.6502 	EXP 	text: autoDraw = False
+164.6502 	EXP 	text_2: autoDraw = False
+164.6502 	EXP 	text_3: autoDraw = True
+165.6357 	EXP 	New trial (rep=43, index=0): None
+165.6358 	EXP 	window1: recordFrameIntervals = False
+165.6514 	EXP 	text_3: autoDraw = False
+165.6514 	EXP 	text_3: autoDraw = False
+165.6514 	EXP 	text: autoDraw = True
+165.6516 	EXP 	window1: recordFrameIntervals = False
+166.2193 	EXP 	text_2: autoDraw = True
+166.4025 	EXP 	text_2: autoDraw = False
+166.4692 	DATA 	Keypress: space
+166.4856 	EXP 	text: autoDraw = False
+166.4856 	EXP 	text_2: autoDraw = False
+166.4856 	EXP 	text_3: autoDraw = True
+167.4712 	EXP 	New trial (rep=44, index=0): None
+167.4714 	EXP 	window1: recordFrameIntervals = False
+167.4868 	EXP 	text_3: autoDraw = False
+167.4868 	EXP 	text_3: autoDraw = False
+167.4868 	EXP 	text: autoDraw = True
+167.4870 	EXP 	window1: recordFrameIntervals = False
+168.2714 	EXP 	text_2: autoDraw = True
+168.4545 	EXP 	text_2: autoDraw = False
+168.5222 	DATA 	Keypress: space
+168.5381 	EXP 	text: autoDraw = False
+168.5381 	EXP 	text_2: autoDraw = False
+168.5381 	EXP 	text_3: autoDraw = True
+169.5234 	EXP 	New trial (rep=45, index=0): None
+169.5236 	EXP 	window1: recordFrameIntervals = False
+169.5391 	EXP 	text_3: autoDraw = False
+169.5391 	EXP 	text_3: autoDraw = False
+169.5391 	EXP 	text: autoDraw = True
+169.5393 	EXP 	window1: recordFrameIntervals = False
+170.1897 	EXP 	text_2: autoDraw = True
+170.3738 	EXP 	text_2: autoDraw = False
+170.4405 	DATA 	Keypress: space
+170.4567 	EXP 	text: autoDraw = False
+170.4567 	EXP 	text_2: autoDraw = False
+170.4567 	EXP 	text_3: autoDraw = True
+171.4422 	EXP 	New trial (rep=46, index=0): None
+171.4423 	EXP 	window1: recordFrameIntervals = False
+171.4579 	EXP 	text_3: autoDraw = False
+171.4579 	EXP 	text_3: autoDraw = False
+171.4579 	EXP 	text: autoDraw = True
+171.4581 	EXP 	window1: recordFrameIntervals = False
+172.1085 	EXP 	text_2: autoDraw = True
+172.3086 	EXP 	text_2: autoDraw = False
+172.3758 	DATA 	Keypress: space
+172.3922 	EXP 	text: autoDraw = False
+172.3922 	EXP 	text_2: autoDraw = False
+172.3922 	EXP 	text_3: autoDraw = True
+173.3778 	EXP 	New trial (rep=47, index=0): None
+173.3780 	EXP 	window1: recordFrameIntervals = False
+173.3935 	EXP 	text_3: autoDraw = False
+173.3935 	EXP 	text_3: autoDraw = False
+173.3935 	EXP 	text: autoDraw = True
+173.3937 	EXP 	window1: recordFrameIntervals = False
+173.9777 	EXP 	text_2: autoDraw = True
+174.1778 	EXP 	text_2: autoDraw = False
+174.2284 	DATA 	Keypress: space
+174.2444 	EXP 	text: autoDraw = False
+174.2444 	EXP 	text_2: autoDraw = False
+174.2444 	EXP 	text_3: autoDraw = True
+175.2298 	EXP 	New trial (rep=48, index=0): None
+175.2299 	EXP 	window1: recordFrameIntervals = False
+175.2453 	EXP 	text_3: autoDraw = False
+175.2453 	EXP 	text_3: autoDraw = False
+175.2453 	EXP 	text: autoDraw = True
+175.2456 	EXP 	window1: recordFrameIntervals = False
+175.7632 	EXP 	text_2: autoDraw = True
+175.9465 	EXP 	text_2: autoDraw = False
+176.0132 	DATA 	Keypress: space
+176.0295 	EXP 	text: autoDraw = False
+176.0295 	EXP 	text_2: autoDraw = False
+176.0295 	EXP 	text_3: autoDraw = True
+177.0152 	EXP 	New trial (rep=49, index=0): None
+177.0153 	EXP 	window1: recordFrameIntervals = False
+177.0313 	EXP 	text_3: autoDraw = False
+177.0313 	EXP 	text_3: autoDraw = False
+177.0313 	EXP 	text: autoDraw = True
+177.0316 	EXP 	window1: recordFrameIntervals = False
+177.5481 	EXP 	text_2: autoDraw = True
+177.7322 	EXP 	text_2: autoDraw = False
+177.8156 	DATA 	Keypress: space
+177.8317 	EXP 	text: autoDraw = False
+177.8317 	EXP 	text_2: autoDraw = False
+177.8317 	EXP 	text_3: autoDraw = True
+178.8170 	EXP 	New trial (rep=50, index=0): None
+178.8172 	EXP 	window1: recordFrameIntervals = False
+178.8328 	EXP 	text_3: autoDraw = False
+178.8328 	EXP 	text_3: autoDraw = False
+178.8328 	EXP 	text: autoDraw = True
+178.8330 	EXP 	window1: recordFrameIntervals = False
+179.5668 	EXP 	text_2: autoDraw = True
+179.7672 	EXP 	text_2: autoDraw = False
+179.8183 	DATA 	Keypress: space
+179.8507 	EXP 	text: autoDraw = False
+179.8507 	EXP 	text_2: autoDraw = False
+179.8507 	EXP 	text_3: autoDraw = True
+180.8360 	EXP 	New trial (rep=51, index=0): None
+180.8362 	EXP 	window1: recordFrameIntervals = False
+180.8518 	EXP 	text_3: autoDraw = False
+180.8518 	EXP 	text: autoDraw = True
+180.8521 	EXP 	window1: recordFrameIntervals = False
+181.8526 	EXP 	text_2: autoDraw = True
+182.0368 	EXP 	text_2: autoDraw = False
+182.1201 	DATA 	Keypress: space
+182.1371 	EXP 	text: autoDraw = False
+182.1371 	EXP 	text_2: autoDraw = False
+182.1371 	EXP 	text_3: autoDraw = True
+183.1217 	EXP 	New trial (rep=52, index=0): None
+183.1219 	EXP 	window1: recordFrameIntervals = False
+183.1376 	EXP 	text_3: autoDraw = False
+183.1376 	EXP 	text_3: autoDraw = False
+183.1376 	EXP 	text: autoDraw = True
+183.1378 	EXP 	window1: recordFrameIntervals = False
+184.1391 	EXP 	text_2: autoDraw = True
+184.3224 	EXP 	text_2: autoDraw = False
+184.3894 	DATA 	Keypress: space
+184.4057 	EXP 	text: autoDraw = False
+184.4057 	EXP 	text_2: autoDraw = False
+184.4057 	EXP 	text_3: autoDraw = True
+185.3911 	EXP 	New trial (rep=53, index=0): None
+185.3913 	EXP 	window1: recordFrameIntervals = False
+185.4068 	EXP 	text_3: autoDraw = False
+185.4068 	EXP 	text_3: autoDraw = False
+185.4068 	EXP 	text: autoDraw = True
+185.4070 	EXP 	window1: recordFrameIntervals = False
+186.1408 	EXP 	text_2: autoDraw = True
+186.3413 	EXP 	text_2: autoDraw = False
+186.4251 	DATA 	Keypress: space
+186.4412 	EXP 	text: autoDraw = False
+186.4412 	EXP 	text_2: autoDraw = False
+186.4412 	EXP 	text_3: autoDraw = True
+187.4267 	EXP 	New trial (rep=54, index=0): None
+187.4269 	EXP 	window1: recordFrameIntervals = False
+187.4425 	EXP 	text_3: autoDraw = False
+187.4425 	EXP 	text_3: autoDraw = False
+187.4425 	EXP 	text: autoDraw = True
+187.4427 	EXP 	window1: recordFrameIntervals = False
+188.2940 	EXP 	text_2: autoDraw = True
+188.4939 	EXP 	text_2: autoDraw = False
+188.5611 	DATA 	Keypress: space
+188.5771 	EXP 	text: autoDraw = False
+188.5771 	EXP 	text_2: autoDraw = False
+188.5771 	EXP 	text_3: autoDraw = True
+189.5626 	EXP 	New trial (rep=55, index=0): None
+189.5628 	EXP 	window1: recordFrameIntervals = False
+189.5782 	EXP 	text_3: autoDraw = False
+189.5782 	EXP 	text_3: autoDraw = False
+189.5782 	EXP 	text: autoDraw = True
+189.5784 	EXP 	window1: recordFrameIntervals = False
+190.3956 	EXP 	text_2: autoDraw = True
+190.5793 	EXP 	text_2: autoDraw = False
+190.6966 	DATA 	Keypress: space
+190.7128 	EXP 	text: autoDraw = False
+190.7128 	EXP 	text_2: autoDraw = False
+190.7128 	EXP 	text_3: autoDraw = True
+191.6985 	EXP 	New trial (rep=56, index=0): None
+191.6987 	EXP 	window1: recordFrameIntervals = False
+191.7142 	EXP 	text_3: autoDraw = False
+191.7142 	EXP 	text_3: autoDraw = False
+191.7142 	EXP 	text: autoDraw = True
+191.7144 	EXP 	window1: recordFrameIntervals = False
+192.5483 	EXP 	text_2: autoDraw = True
+192.7484 	EXP 	text_2: autoDraw = False
+192.8489 	DATA 	Keypress: space
+192.8651 	EXP 	text: autoDraw = False
+192.8651 	EXP 	text_2: autoDraw = False
+192.8651 	EXP 	text_3: autoDraw = True
+193.8505 	EXP 	New trial (rep=57, index=0): None
+193.8507 	EXP 	window1: recordFrameIntervals = False
+193.8663 	EXP 	text_3: autoDraw = False
+193.8663 	EXP 	text_3: autoDraw = False
+193.8663 	EXP 	text: autoDraw = True
+193.8666 	EXP 	window1: recordFrameIntervals = False
+194.6341 	EXP 	text_2: autoDraw = True
+194.8177 	EXP 	text_2: autoDraw = False
+194.9514 	DATA 	Keypress: space
+194.9675 	EXP 	text: autoDraw = False
+194.9675 	EXP 	text_2: autoDraw = False
+194.9675 	EXP 	text_3: autoDraw = True
+195.9528 	EXP 	New trial (rep=58, index=0): None
+195.9530 	EXP 	window1: recordFrameIntervals = False
+195.9686 	EXP 	text_3: autoDraw = False
+195.9686 	EXP 	text_3: autoDraw = False
+195.9686 	EXP 	text: autoDraw = True
+195.9688 	EXP 	window1: recordFrameIntervals = False
+196.7865 	EXP 	text_2: autoDraw = True
+196.9695 	EXP 	text_2: autoDraw = False
+197.1373 	DATA 	Keypress: space
+197.1533 	EXP 	text: autoDraw = False
+197.1533 	EXP 	text_2: autoDraw = False
+197.1533 	EXP 	text_3: autoDraw = True
+198.1388 	EXP 	New trial (rep=59, index=0): None
+198.1390 	EXP 	window1: recordFrameIntervals = False
+198.1545 	EXP 	text_3: autoDraw = False
+198.1545 	EXP 	text_3: autoDraw = False
+198.1545 	EXP 	text: autoDraw = True
+198.1547 	EXP 	window1: recordFrameIntervals = False
+199.0891 	EXP 	text_2: autoDraw = True
+199.2723 	EXP 	text_2: autoDraw = False
+199.3060 	DATA 	Keypress: space
+199.3221 	EXP 	text: autoDraw = False
+199.3221 	EXP 	text_2: autoDraw = False
+199.3221 	EXP 	text_3: autoDraw = True
+200.3078 	EXP 	New trial (rep=60, index=0): None
+200.3080 	EXP 	window1: recordFrameIntervals = False
+200.3235 	EXP 	text_3: autoDraw = False
+200.3235 	EXP 	text_3: autoDraw = False
+200.3235 	EXP 	text: autoDraw = True
+200.3237 	EXP 	window1: recordFrameIntervals = False
+200.9908 	EXP 	text_2: autoDraw = True
+201.1743 	EXP 	text_2: autoDraw = False
+201.2420 	DATA 	Keypress: space
+201.2580 	EXP 	text: autoDraw = False
+201.2580 	EXP 	text_2: autoDraw = False
+201.2580 	EXP 	text_3: autoDraw = True
+202.2433 	EXP 	New trial (rep=61, index=0): None
+202.2434 	EXP 	window1: recordFrameIntervals = False
+202.2590 	EXP 	text_3: autoDraw = False
+202.2590 	EXP 	text_3: autoDraw = False
+202.2590 	EXP 	text: autoDraw = True
+202.2592 	EXP 	window1: recordFrameIntervals = False
+203.2105 	EXP 	text_2: autoDraw = True
+203.3935 	EXP 	text_2: autoDraw = False
+203.4773 	DATA 	Keypress: space
+203.4937 	EXP 	text: autoDraw = False
+203.4937 	EXP 	text_2: autoDraw = False
+203.4937 	EXP 	text_3: autoDraw = True
+204.4791 	EXP 	New trial (rep=62, index=0): None
+204.4792 	EXP 	window1: recordFrameIntervals = False
+204.4948 	EXP 	text_3: autoDraw = False
+204.4948 	EXP 	text_3: autoDraw = False
+204.4948 	EXP 	text: autoDraw = True
+204.4950 	EXP 	window1: recordFrameIntervals = False
+205.3126 	EXP 	text_2: autoDraw = True
+205.4963 	EXP 	text_2: autoDraw = False
+205.5965 	DATA 	Keypress: space
+205.6126 	EXP 	text: autoDraw = False
+205.6126 	EXP 	text_2: autoDraw = False
+205.6126 	EXP 	text_3: autoDraw = True
+206.5979 	EXP 	New trial (rep=63, index=0): None
+206.5980 	EXP 	window1: recordFrameIntervals = False
+206.6138 	EXP 	text_3: autoDraw = False
+206.6138 	EXP 	text_3: autoDraw = False
+206.6138 	EXP 	text: autoDraw = True
+206.6140 	EXP 	window1: recordFrameIntervals = False
+207.5152 	EXP 	text_2: autoDraw = True
+207.7151 	EXP 	text_2: autoDraw = False
+207.7656 	DATA 	Keypress: space
+207.7818 	EXP 	text: autoDraw = False
+207.7818 	EXP 	text_2: autoDraw = False
+207.7818 	EXP 	text_3: autoDraw = True
+208.7675 	EXP 	New trial (rep=64, index=0): None
+208.7677 	EXP 	window1: recordFrameIntervals = False
+208.7831 	EXP 	text_3: autoDraw = False
+208.7831 	EXP 	text_3: autoDraw = False
+208.7831 	EXP 	text: autoDraw = True
+208.7833 	EXP 	window1: recordFrameIntervals = False
+209.3333 	EXP 	text_2: autoDraw = True
+209.5173 	EXP 	text_2: autoDraw = False
+209.6012 	DATA 	Keypress: space
+209.6170 	EXP 	text: autoDraw = False
+209.6170 	EXP 	text_2: autoDraw = False
+209.6170 	EXP 	text_3: autoDraw = True
+210.6026 	EXP 	New trial (rep=65, index=0): None
+210.6028 	EXP 	window1: recordFrameIntervals = False
+210.6184 	EXP 	text_3: autoDraw = False
+210.6184 	EXP 	text_3: autoDraw = False
+210.6184 	EXP 	text: autoDraw = True
+210.6186 	EXP 	window1: recordFrameIntervals = False
+211.4863 	EXP 	text_2: autoDraw = True
+211.6693 	EXP 	text_2: autoDraw = False
+211.7367 	DATA 	Keypress: space
+211.7529 	EXP 	text: autoDraw = False
+211.7529 	EXP 	text_2: autoDraw = False
+211.7529 	EXP 	text_3: autoDraw = True
+212.7383 	EXP 	New trial (rep=66, index=0): None
+212.7384 	EXP 	window1: recordFrameIntervals = False
+212.7540 	EXP 	text_3: autoDraw = False
+212.7540 	EXP 	text_3: autoDraw = False
+212.7540 	EXP 	text: autoDraw = True
+212.7542 	EXP 	window1: recordFrameIntervals = False
+213.7387 	EXP 	text_2: autoDraw = True
+213.9220 	EXP 	text_2: autoDraw = False
+213.9890 	DATA 	Keypress: space
+214.0053 	EXP 	text: autoDraw = False
+214.0053 	EXP 	text_2: autoDraw = False
+214.0053 	EXP 	text_3: autoDraw = True
+214.9908 	EXP 	New trial (rep=67, index=0): None
+214.9909 	EXP 	window1: recordFrameIntervals = False
+215.0065 	EXP 	text_3: autoDraw = False
+215.0065 	EXP 	text_3: autoDraw = False
+215.0065 	EXP 	text: autoDraw = True
+215.0068 	EXP 	window1: recordFrameIntervals = False
+215.5241 	EXP 	text_2: autoDraw = True
+215.7074 	EXP 	text_2: autoDraw = False
+215.9250 	DATA 	Keypress: space
+215.9409 	EXP 	text: autoDraw = False
+215.9409 	EXP 	text_2: autoDraw = False
+215.9409 	EXP 	text_3: autoDraw = True
+216.9262 	EXP 	New trial (rep=68, index=0): None
+216.9264 	EXP 	window1: recordFrameIntervals = False
+216.9420 	EXP 	text_3: autoDraw = False
+216.9420 	EXP 	text_3: autoDraw = False
+216.9420 	EXP 	text: autoDraw = True
+216.9422 	EXP 	window1: recordFrameIntervals = False
+217.8429 	EXP 	text_2: autoDraw = True
+218.0433 	EXP 	text_2: autoDraw = False
+218.0938 	DATA 	Keypress: space
+218.1100 	EXP 	text: autoDraw = False
+218.1100 	EXP 	text_2: autoDraw = False
+218.1100 	EXP 	text_3: autoDraw = True
+219.0953 	EXP 	New trial (rep=69, index=0): None
+219.0955 	EXP 	window1: recordFrameIntervals = False
+219.1111 	EXP 	text_3: autoDraw = False
+219.1111 	EXP 	text_3: autoDraw = False
+219.1111 	EXP 	text: autoDraw = True
+219.1113 	EXP 	window1: recordFrameIntervals = False
+219.6949 	EXP 	text_2: autoDraw = True
+219.8953 	EXP 	text_2: autoDraw = False
+219.9627 	DATA 	Keypress: space
+219.9787 	EXP 	text: autoDraw = False
+219.9787 	EXP 	text_2: autoDraw = False
+219.9787 	EXP 	text_3: autoDraw = True
+220.9643 	EXP 	New trial (rep=70, index=0): None
+220.9646 	EXP 	window1: recordFrameIntervals = False
+220.9800 	EXP 	text_3: autoDraw = False
+220.9800 	EXP 	text_3: autoDraw = False
+220.9800 	EXP 	text: autoDraw = True
+220.9802 	EXP 	window1: recordFrameIntervals = False
+221.9808 	EXP 	text_2: autoDraw = True
+222.1646 	EXP 	text_2: autoDraw = False
+222.1817 	DATA 	Keypress: space
+222.1978 	EXP 	text: autoDraw = False
+222.1978 	EXP 	text_2: autoDraw = False
+222.1978 	EXP 	text_3: autoDraw = True
+223.1832 	EXP 	New trial (rep=71, index=0): None
+223.1834 	EXP 	window1: recordFrameIntervals = False
+223.1990 	EXP 	text_3: autoDraw = False
+223.1990 	EXP 	text_3: autoDraw = False
+223.1990 	EXP 	text: autoDraw = True
+223.1993 	EXP 	window1: recordFrameIntervals = False
+223.8835 	EXP 	text_2: autoDraw = True
+224.0667 	EXP 	text_2: autoDraw = False
+224.1675 	DATA 	Keypress: space
+224.1835 	EXP 	text: autoDraw = False
+224.1835 	EXP 	text_2: autoDraw = False
+224.1835 	EXP 	text_3: autoDraw = True
+225.1688 	EXP 	New trial (rep=72, index=0): None
+225.1690 	EXP 	window1: recordFrameIntervals = False
+225.1846 	EXP 	text_3: autoDraw = False
+225.1846 	EXP 	text_3: autoDraw = False
+225.1846 	EXP 	text: autoDraw = True
+225.1848 	EXP 	window1: recordFrameIntervals = False
+226.1188 	EXP 	text_2: autoDraw = True
+226.3190 	EXP 	text_2: autoDraw = False
+226.4197 	DATA 	Keypress: space
+226.4359 	EXP 	text: autoDraw = False
+226.4359 	EXP 	text_2: autoDraw = False
+226.4359 	EXP 	text_3: autoDraw = True
+227.4216 	EXP 	New trial (rep=73, index=0): None
+227.4217 	EXP 	window1: recordFrameIntervals = False
+227.4372 	EXP 	text_3: autoDraw = False
+227.4372 	EXP 	text_3: autoDraw = False
+227.4372 	EXP 	text: autoDraw = True
+227.4375 	EXP 	window1: recordFrameIntervals = False
+228.0715 	EXP 	text_2: autoDraw = True
+228.2719 	EXP 	text_2: autoDraw = False
+228.3718 	DATA 	Keypress: space
+228.3881 	EXP 	text: autoDraw = False
+228.3881 	EXP 	text_2: autoDraw = False
+228.3881 	EXP 	text_3: autoDraw = True
+229.3735 	EXP 	New trial (rep=74, index=0): None
+229.3737 	EXP 	window1: recordFrameIntervals = False
+229.3892 	EXP 	text_3: autoDraw = False
+229.3892 	EXP 	text_3: autoDraw = False
+229.3892 	EXP 	text: autoDraw = True
+229.3895 	EXP 	window1: recordFrameIntervals = False
+230.0736 	EXP 	text_2: autoDraw = True
+230.2736 	EXP 	text_2: autoDraw = False
+230.3911 	DATA 	Keypress: space
+230.4072 	EXP 	text: autoDraw = False
+230.4072 	EXP 	text_2: autoDraw = False
+230.4072 	EXP 	text_3: autoDraw = True
+231.3925 	EXP 	New trial (rep=75, index=0): None
+231.3927 	EXP 	window1: recordFrameIntervals = False
+231.4081 	EXP 	text_3: autoDraw = False
+231.4081 	EXP 	text_3: autoDraw = False
+231.4081 	EXP 	text: autoDraw = True
+231.4083 	EXP 	window1: recordFrameIntervals = False
+232.0254 	EXP 	text_2: autoDraw = True
+232.2092 	EXP 	text_2: autoDraw = False
+232.2928 	DATA 	Keypress: space
+232.3091 	EXP 	text: autoDraw = False
+232.3091 	EXP 	text_2: autoDraw = False
+232.3091 	EXP 	text_3: autoDraw = True
+233.2945 	EXP 	New trial (rep=76, index=0): None
+233.2947 	EXP 	window1: recordFrameIntervals = False
+233.3103 	EXP 	text_3: autoDraw = False
+233.3103 	EXP 	text_3: autoDraw = False
+233.3103 	EXP 	text: autoDraw = True
+233.3105 	EXP 	window1: recordFrameIntervals = False
+233.9945 	EXP 	text_2: autoDraw = True
+234.1779 	EXP 	text_2: autoDraw = False
+234.3450 	DATA 	Keypress: space
+234.3613 	EXP 	text: autoDraw = False
+234.3613 	EXP 	text_2: autoDraw = False
+234.3613 	EXP 	text_3: autoDraw = True
+235.3466 	EXP 	New trial (rep=77, index=0): None
+235.3468 	EXP 	window1: recordFrameIntervals = False
+235.3625 	EXP 	text_3: autoDraw = False
+235.3625 	EXP 	text_3: autoDraw = False
+235.3625 	EXP 	text: autoDraw = True
+235.3628 	EXP 	window1: recordFrameIntervals = False
+236.2634 	EXP 	text_2: autoDraw = True
+236.4471 	EXP 	text_2: autoDraw = False
+236.6309 	DATA 	Keypress: space
+236.6472 	EXP 	text: autoDraw = False
+236.6472 	EXP 	text_2: autoDraw = False
+236.6472 	EXP 	text_3: autoDraw = True
+237.6328 	EXP 	New trial (rep=78, index=0): None
+237.6329 	EXP 	window1: recordFrameIntervals = False
+237.6485 	EXP 	text_3: autoDraw = False
+237.6485 	EXP 	text_3: autoDraw = False
+237.6485 	EXP 	text: autoDraw = True
+237.6487 	EXP 	window1: recordFrameIntervals = False
+238.3830 	EXP 	text_2: autoDraw = True
+238.5831 	EXP 	text_2: autoDraw = False
+238.7834 	DATA 	Keypress: space
+238.7997 	EXP 	text: autoDraw = False
+238.7997 	EXP 	text_2: autoDraw = False
+238.7997 	EXP 	text_3: autoDraw = True
+239.7852 	EXP 	New trial (rep=79, index=0): None
+239.7853 	EXP 	window1: recordFrameIntervals = False
+239.8009 	EXP 	text_3: autoDraw = False
+239.8009 	EXP 	text_3: autoDraw = False
+239.8009 	EXP 	text: autoDraw = True
+239.8012 	EXP 	window1: recordFrameIntervals = False
+240.7186 	EXP 	text_2: autoDraw = True
+240.9021 	EXP 	text_2: autoDraw = False
+240.9695 	DATA 	Keypress: space
+240.9856 	EXP 	text: autoDraw = False
+240.9856 	EXP 	text_2: autoDraw = False
+240.9856 	EXP 	text_3: autoDraw = True
+241.9707 	EXP 	New trial (rep=80, index=0): None
+241.9709 	EXP 	window1: recordFrameIntervals = False
+241.9865 	EXP 	text_3: autoDraw = False
+241.9865 	EXP 	text_3: autoDraw = False
+241.9865 	EXP 	text: autoDraw = True
+241.9867 	EXP 	window1: recordFrameIntervals = False
+242.9376 	EXP 	text_2: autoDraw = True
+243.1380 	EXP 	text_2: autoDraw = False
+243.2055 	DATA 	Keypress: space
+243.2214 	EXP 	text: autoDraw = False
+243.2214 	EXP 	text_2: autoDraw = False
+243.2214 	EXP 	text_3: autoDraw = True
+244.2068 	EXP 	New trial (rep=81, index=0): None
+244.2070 	EXP 	window1: recordFrameIntervals = False
+244.2225 	EXP 	text_3: autoDraw = False
+244.2225 	EXP 	text_3: autoDraw = False
+244.2225 	EXP 	text: autoDraw = True
+244.2227 	EXP 	window1: recordFrameIntervals = False
+245.1233 	EXP 	text_2: autoDraw = True
+245.3070 	EXP 	text_2: autoDraw = False
+245.4074 	DATA 	Keypress: space
+245.4237 	EXP 	text: autoDraw = False
+245.4237 	EXP 	text_2: autoDraw = False
+245.4237 	EXP 	text_3: autoDraw = True
+246.4092 	EXP 	New trial (rep=82, index=0): None
+246.4093 	EXP 	window1: recordFrameIntervals = False
+246.4249 	EXP 	text_3: autoDraw = False
+246.4249 	EXP 	text_3: autoDraw = False
+246.4249 	EXP 	text: autoDraw = True
+246.4251 	EXP 	window1: recordFrameIntervals = False
+247.3091 	EXP 	text_2: autoDraw = True
+247.4928 	EXP 	text_2: autoDraw = False
+247.5767 	DATA 	Keypress: space
+247.5929 	EXP 	text: autoDraw = False
+247.5929 	EXP 	text_2: autoDraw = False
+247.5929 	EXP 	text_3: autoDraw = True
+248.5784 	EXP 	New trial (rep=83, index=0): None
+248.5786 	EXP 	window1: recordFrameIntervals = False
+248.5941 	EXP 	text_3: autoDraw = False
+248.5941 	EXP 	text_3: autoDraw = False
+248.5941 	EXP 	text: autoDraw = True
+248.5943 	EXP 	window1: recordFrameIntervals = False
+249.5448 	EXP 	text_2: autoDraw = True
+249.7453 	EXP 	text_2: autoDraw = False
+249.7630 	DATA 	Keypress: space
+249.7957 	EXP 	text: autoDraw = False
+249.7957 	EXP 	text_2: autoDraw = False
+249.7957 	EXP 	text_3: autoDraw = True
+250.7806 	EXP 	New trial (rep=84, index=0): None
+250.7809 	EXP 	window1: recordFrameIntervals = False
+250.7965 	EXP 	text_3: autoDraw = False
+250.7965 	EXP 	text: autoDraw = True
+250.7967 	EXP 	window1: recordFrameIntervals = False
+251.4804 	EXP 	text_2: autoDraw = True
+251.6808 	EXP 	text_2: autoDraw = False
+251.9148 	DATA 	Keypress: space
+251.9311 	EXP 	text: autoDraw = False
+251.9311 	EXP 	text_2: autoDraw = False
+251.9311 	EXP 	text_3: autoDraw = True
+252.9164 	EXP 	New trial (rep=85, index=0): None
+252.9166 	EXP 	window1: recordFrameIntervals = False
+252.9321 	EXP 	text_3: autoDraw = False
+252.9321 	EXP 	text_3: autoDraw = False
+252.9321 	EXP 	text: autoDraw = True
+252.9323 	EXP 	window1: recordFrameIntervals = False
+253.8336 	EXP 	text_2: autoDraw = True
+254.0169 	EXP 	text_2: autoDraw = False
+254.0843 	DATA 	Keypress: space
+254.1003 	EXP 	text: autoDraw = False
+254.1003 	EXP 	text_2: autoDraw = False
+254.1003 	EXP 	text_3: autoDraw = True
+255.0855 	EXP 	New trial (rep=86, index=0): None
+255.0857 	EXP 	window1: recordFrameIntervals = False
+255.1013 	EXP 	text_3: autoDraw = False
+255.1013 	EXP 	text_3: autoDraw = False
+255.1013 	EXP 	text: autoDraw = True
+255.1015 	EXP 	window1: recordFrameIntervals = False
+255.7691 	EXP 	text_2: autoDraw = True
+255.9524 	EXP 	text_2: autoDraw = False
+256.0193 	DATA 	Keypress: space
+256.0356 	EXP 	text: autoDraw = False
+256.0356 	EXP 	text_2: autoDraw = False
+256.0356 	EXP 	text_3: autoDraw = True
+257.0210 	EXP 	New trial (rep=87, index=0): None
+257.0212 	EXP 	window1: recordFrameIntervals = False
+257.0368 	EXP 	text_3: autoDraw = False
+257.0368 	EXP 	text_3: autoDraw = False
+257.0368 	EXP 	text: autoDraw = True
+257.0370 	EXP 	window1: recordFrameIntervals = False
+257.9877 	EXP 	text_2: autoDraw = True
+258.1714 	EXP 	text_2: autoDraw = False
+258.2053 	DATA 	Keypress: space
+258.2213 	EXP 	text: autoDraw = False
+258.2213 	EXP 	text_2: autoDraw = False
+258.2213 	EXP 	text_3: autoDraw = True
+259.2068 	EXP 	New trial (rep=88, index=0): None
+259.2070 	EXP 	window1: recordFrameIntervals = False
+259.2225 	EXP 	text_3: autoDraw = False
+259.2225 	EXP 	text_3: autoDraw = False
+259.2225 	EXP 	text: autoDraw = True
+259.2228 	EXP 	window1: recordFrameIntervals = False
+260.0066 	EXP 	text_2: autoDraw = True
+260.2070 	EXP 	text_2: autoDraw = False
+260.3074 	DATA 	Keypress: space
+260.3236 	EXP 	text: autoDraw = False
+260.3236 	EXP 	text_2: autoDraw = False
+260.3236 	EXP 	text_3: autoDraw = True
+261.3093 	EXP 	New trial (rep=89, index=0): None
+261.3094 	EXP 	window1: recordFrameIntervals = False
+261.3249 	EXP 	text_3: autoDraw = False
+261.3249 	EXP 	text_3: autoDraw = False
+261.3249 	EXP 	text: autoDraw = True
+261.3251 	EXP 	window1: recordFrameIntervals = False
+261.9926 	EXP 	text_2: autoDraw = True
+262.1759 	EXP 	text_2: autoDraw = False
+262.2596 	DATA 	Keypress: space
+262.2757 	EXP 	text: autoDraw = False
+262.2757 	EXP 	text_2: autoDraw = False
+262.2757 	EXP 	text_3: autoDraw = True
+263.2612 	EXP 	New trial (rep=90, index=0): None
+263.2614 	EXP 	window1: recordFrameIntervals = False
+263.2769 	EXP 	text_3: autoDraw = False
+263.2769 	EXP 	text_3: autoDraw = False
+263.2769 	EXP 	text: autoDraw = True
+263.2771 	EXP 	window1: recordFrameIntervals = False
+264.0278 	EXP 	text_2: autoDraw = True
+264.2117 	EXP 	text_2: autoDraw = False
+264.2452 	DATA 	Keypress: space
+264.2615 	EXP 	text: autoDraw = False
+264.2615 	EXP 	text_2: autoDraw = False
+264.2615 	EXP 	text_3: autoDraw = True
+265.2466 	EXP 	New trial (rep=91, index=0): None
+265.2467 	EXP 	window1: recordFrameIntervals = False
+265.2625 	EXP 	text_3: autoDraw = False
+265.2625 	EXP 	text_3: autoDraw = False
+265.2625 	EXP 	text: autoDraw = True
+265.2628 	EXP 	window1: recordFrameIntervals = False
+265.8302 	EXP 	text_2: autoDraw = True
+266.0134 	EXP 	text_2: autoDraw = False
+266.1473 	DATA 	Keypress: space
+266.1636 	EXP 	text: autoDraw = False
+266.1636 	EXP 	text_2: autoDraw = False
+266.1636 	EXP 	text_3: autoDraw = True
+267.1493 	EXP 	New trial (rep=92, index=0): None
+267.1495 	EXP 	window1: recordFrameIntervals = False
+267.1650 	EXP 	text_3: autoDraw = False
+267.1650 	EXP 	text_3: autoDraw = False
+267.1650 	EXP 	text: autoDraw = True
+267.1652 	EXP 	window1: recordFrameIntervals = False
+267.6821 	EXP 	text_2: autoDraw = True
+267.8659 	EXP 	text_2: autoDraw = False
+267.9660 	DATA 	Keypress: space
+267.9823 	EXP 	text: autoDraw = False
+267.9823 	EXP 	text_2: autoDraw = False
+267.9823 	EXP 	text_3: autoDraw = True
+268.9677 	EXP 	New trial (rep=93, index=0): None
+268.9678 	EXP 	window1: recordFrameIntervals = False
+268.9834 	EXP 	text_3: autoDraw = False
+268.9834 	EXP 	text_3: autoDraw = False
+268.9834 	EXP 	text: autoDraw = True
+268.9837 	EXP 	window1: recordFrameIntervals = False
+269.8847 	EXP 	text_2: autoDraw = True
+270.0849 	EXP 	text_2: autoDraw = False
+270.1188 	DATA 	Keypress: space
+270.1349 	EXP 	text: autoDraw = False
+270.1349 	EXP 	text_2: autoDraw = False
+270.1349 	EXP 	text_3: autoDraw = True
+271.1202 	EXP 	New trial (rep=94, index=0): None
+271.1203 	EXP 	window1: recordFrameIntervals = False
+271.1358 	EXP 	text_3: autoDraw = False
+271.1358 	EXP 	text_3: autoDraw = False
+271.1358 	EXP 	text: autoDraw = True
+271.1360 	EXP 	window1: recordFrameIntervals = False
+271.9199 	EXP 	text_2: autoDraw = True
+272.1206 	EXP 	text_2: autoDraw = False
+272.1542 	DATA 	Keypress: space
+272.1703 	EXP 	text: autoDraw = False
+272.1703 	EXP 	text_2: autoDraw = False
+272.1703 	EXP 	text_3: autoDraw = True
+273.1557 	EXP 	New trial (rep=95, index=0): None
+273.1559 	EXP 	window1: recordFrameIntervals = False
+273.1714 	EXP 	text_3: autoDraw = False
+273.1714 	EXP 	text_3: autoDraw = False
+273.1714 	EXP 	text: autoDraw = True
+273.1716 	EXP 	window1: recordFrameIntervals = False
+273.6886 	EXP 	text_2: autoDraw = True
+273.8721 	EXP 	text_2: autoDraw = False
+273.9892 	DATA 	Keypress: space
+274.0055 	EXP 	text: autoDraw = False
+274.0055 	EXP 	text_2: autoDraw = False
+274.0055 	EXP 	text_3: autoDraw = True
+274.9913 	EXP 	New trial (rep=96, index=0): None
+274.9915 	EXP 	window1: recordFrameIntervals = False
+275.0069 	EXP 	text_3: autoDraw = False
+275.0069 	EXP 	text_3: autoDraw = False
+275.0069 	EXP 	text: autoDraw = True
+275.0071 	EXP 	window1: recordFrameIntervals = False
+275.5911 	EXP 	text_2: autoDraw = True
+275.7913 	EXP 	text_2: autoDraw = False
+275.8085 	DATA 	Keypress: space
+275.8245 	EXP 	text: autoDraw = False
+275.8245 	EXP 	text_2: autoDraw = False
+275.8245 	EXP 	text_3: autoDraw = True
+276.8098 	EXP 	New trial (rep=97, index=0): None
+276.8099 	EXP 	window1: recordFrameIntervals = False
+276.8255 	EXP 	text_3: autoDraw = False
+276.8255 	EXP 	text_3: autoDraw = False
+276.8255 	EXP 	text: autoDraw = True
+276.8258 	EXP 	window1: recordFrameIntervals = False
+277.6601 	EXP 	text_2: autoDraw = True
+277.8600 	EXP 	text_2: autoDraw = False
+277.9269 	DATA 	Keypress: space
+277.9439 	EXP 	text: autoDraw = False
+277.9439 	EXP 	text_2: autoDraw = False
+277.9439 	EXP 	text_3: autoDraw = True
+278.9289 	EXP 	New trial (rep=98, index=0): None
+278.9291 	EXP 	window1: recordFrameIntervals = False
+278.9446 	EXP 	text_3: autoDraw = False
+278.9446 	EXP 	text_3: autoDraw = False
+278.9446 	EXP 	text: autoDraw = True
+278.9449 	EXP 	window1: recordFrameIntervals = False
+279.6622 	EXP 	text_2: autoDraw = True
+279.8455 	EXP 	text_2: autoDraw = False
+279.8958 	DATA 	Keypress: space
+279.9121 	EXP 	text: autoDraw = False
+279.9121 	EXP 	text_2: autoDraw = False
+279.9121 	EXP 	text_3: autoDraw = True
+280.8976 	EXP 	New trial (rep=99, index=0): None
+280.8978 	EXP 	window1: recordFrameIntervals = False
+280.9134 	EXP 	text_3: autoDraw = False
+280.9134 	EXP 	text_3: autoDraw = False
+280.9134 	EXP 	text: autoDraw = True
+280.9136 	EXP 	window1: recordFrameIntervals = False
+281.4306 	EXP 	text_2: autoDraw = True
+281.6145 	EXP 	text_2: autoDraw = False
+281.7481 	DATA 	Keypress: space
+281.7810 	EXP 	text: autoDraw = False
+281.7810 	EXP 	text_2: autoDraw = False
+281.7810 	EXP 	text_3: autoDraw = True
